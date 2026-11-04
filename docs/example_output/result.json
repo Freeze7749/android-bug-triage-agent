@@ -1,0 +1,53 @@
+{
+  "source": "samples/demo_sim_failure.log",
+  "analyzer": "rules",
+  "predicted_category": "sim_failure",
+  "summary": "Keyword rules matched: sim_failure, network_registration_lost.",
+  "causes": [
+    {
+      "category": "sim_failure",
+      "explanation": "2 line(s) match the rule for sim_failure.",
+      "confidence": "low",
+      "evidence": [
+        {
+          "line": 61,
+          "quote": "10-15 10:27:04.534  1146  1149 D UiccController: handleSimStatus: cardState=ABSENT slot=0"
+        },
+        {
+          "line": 63,
+          "quote": "10-15 10:27:04.740  1146  1157 D RILJ    : [1935]< GET_SIM_STATUS IccCardState {CARDSTATE_ABSENT,PINSTATE_UNKNOWN} [PHONE0]"
+        }
+      ]
+    },
+    {
+      "category": "network_registration_lost",
+      "explanation": "1 line(s) match the rule for network_registration_lost.",
+      "confidence": "low",
+      "evidence": [
+        {
+          "line": 64,
+          "quote": "10-15 10:27:04.969  1146  1154 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN"
+        }
+      ]
+    }
+  ],
+  "rejected_citations": [],
+  "citations_total": 3,
+  "bug_report": {
+    "title": "SIM card absent or in error state",
+    "severity": "Critical",
+    "component": "Telephony/SIM",
+    "steps_to_reproduce": [
+      "Not known from the log: add the steps used during the test."
+    ],
+    "actual_result": "10-15 10:27:04.534  1146  1149 D UiccController: handleSimStatus: cardState=ABSENT slot=0",
+    "expected_result": "The SIM is detected and ready."
+  },
+  "total_lines": 154,
+  "parsed_lines": 154,
+  "template_count": 19,
+  "raw_chars": 14306,
+  "digest_chars": 4070,
+  "input_tokens": 0,
+  "output_tokens": 0
+}

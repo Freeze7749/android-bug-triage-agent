@@ -1,0 +1,398 @@
+[
+ {
+  "file": "java_crash_01.log",
+  "category": "java_crash",
+  "scenario": "java_background",
+  "key_lines": [
+   78,
+   79,
+   82
+  ]
+ },
+ {
+  "file": "java_crash_02.log",
+  "category": "java_crash",
+  "scenario": "java_finish_only",
+  "key_lines": [
+   60,
+   61
+  ]
+ },
+ {
+  "file": "java_crash_03.log",
+  "category": "java_crash",
+  "scenario": "java_background",
+  "key_lines": [
+   58,
+   60,
+   63
+  ]
+ },
+ {
+  "file": "java_crash_04.log",
+  "category": "java_crash",
+  "scenario": "java_finish_only",
+  "key_lines": [
+   59,
+   63
+  ]
+ },
+ {
+  "file": "java_crash_05.log",
+  "category": "java_crash",
+  "scenario": "java_background",
+  "key_lines": [
+   63,
+   64,
+   67
+  ]
+ },
+ {
+  "file": "anr_01.log",
+  "category": "anr",
+  "scenario": "anr_service",
+  "key_lines": [
+   86,
+   89
+  ]
+ },
+ {
+  "file": "anr_02.log",
+  "category": "anr",
+  "scenario": "anr_dispatcher",
+  "key_lines": [
+   91,
+   92
+  ]
+ },
+ {
+  "file": "anr_03.log",
+  "category": "anr",
+  "scenario": "anr_service",
+  "key_lines": [
+   59,
+   63
+  ]
+ },
+ {
+  "file": "anr_04.log",
+  "category": "anr",
+  "scenario": "anr_dispatcher",
+  "key_lines": [
+   90,
+   94
+  ]
+ },
+ {
+  "file": "anr_05.log",
+  "category": "anr",
+  "scenario": "anr_service",
+  "key_lines": [
+   67,
+   71
+  ]
+ },
+ {
+  "file": "native_crash_01.log",
+  "category": "native_crash",
+  "scenario": "native_tombstone_only",
+  "key_lines": [
+   65,
+   66
+  ]
+ },
+ {
+  "file": "native_crash_02.log",
+  "category": "native_crash",
+  "scenario": "native_check",
+  "key_lines": [
+   74,
+   78
+  ]
+ },
+ {
+  "file": "native_crash_03.log",
+  "category": "native_crash",
+  "scenario": "native_tombstone_only",
+  "key_lines": [
+   83,
+   87
+  ]
+ },
+ {
+  "file": "native_crash_04.log",
+  "category": "native_crash",
+  "scenario": "native_check",
+  "key_lines": [
+   84,
+   87
+  ]
+ },
+ {
+  "file": "native_crash_05.log",
+  "category": "native_crash",
+  "scenario": "native_tombstone_only",
+  "key_lines": [
+   61,
+   63
+  ]
+ },
+ {
+  "file": "out_of_memory_01.log",
+  "category": "out_of_memory",
+  "scenario": "oom_lmkd",
+  "key_lines": [
+   62,
+   64
+  ]
+ },
+ {
+  "file": "out_of_memory_02.log",
+  "category": "out_of_memory",
+  "scenario": "oom_kernel",
+  "key_lines": [
+   74,
+   75
+  ]
+ },
+ {
+  "file": "out_of_memory_03.log",
+  "category": "out_of_memory",
+  "scenario": "oom_lmkd",
+  "key_lines": [
+   62,
+   63
+  ]
+ },
+ {
+  "file": "out_of_memory_04.log",
+  "category": "out_of_memory",
+  "scenario": "oom_kernel",
+  "key_lines": [
+   48,
+   52
+  ]
+ },
+ {
+  "file": "out_of_memory_05.log",
+  "category": "out_of_memory",
+  "scenario": "oom_lmkd",
+  "key_lines": [
+   64,
+   67
+  ]
+ },
+ {
+  "file": "network_registration_lost_01.log",
+  "category": "network_registration_lost",
+  "scenario": "reg_at_denied",
+  "key_lines": [
+   70,
+   74,
+   76
+  ]
+ },
+ {
+  "file": "network_registration_lost_02.log",
+  "category": "network_registration_lost",
+  "scenario": "reg_rlf",
+  "key_lines": [
+   67,
+   70
+  ]
+ },
+ {
+  "file": "network_registration_lost_03.log",
+  "category": "network_registration_lost",
+  "scenario": "reg_at_denied",
+  "key_lines": [
+   90,
+   92,
+   94
+  ]
+ },
+ {
+  "file": "network_registration_lost_04.log",
+  "category": "network_registration_lost",
+  "scenario": "reg_rlf",
+  "key_lines": [
+   77,
+   79
+  ]
+ },
+ {
+  "file": "network_registration_lost_05.log",
+  "category": "network_registration_lost",
+  "scenario": "reg_at_denied",
+  "key_lines": [
+   91,
+   92,
+   95
+  ]
+ },
+ {
+  "file": "data_call_failure_01.log",
+  "category": "data_call_failure",
+  "scenario": "data_dct",
+  "key_lines": [
+   80,
+   81
+  ]
+ },
+ {
+  "file": "data_call_failure_02.log",
+  "category": "data_call_failure",
+  "scenario": "data_pdn",
+  "key_lines": [
+   50,
+   52
+  ]
+ },
+ {
+  "file": "data_call_failure_03.log",
+  "category": "data_call_failure",
+  "scenario": "data_dct",
+  "key_lines": [
+   88,
+   91
+  ]
+ },
+ {
+  "file": "data_call_failure_04.log",
+  "category": "data_call_failure",
+  "scenario": "data_pdn",
+  "key_lines": [
+   70,
+   74
+  ]
+ },
+ {
+  "file": "data_call_failure_05.log",
+  "category": "data_call_failure",
+  "scenario": "data_dct",
+  "key_lines": [
+   44,
+   46
+  ]
+ },
+ {
+  "file": "ims_registration_failure_01.log",
+  "category": "ims_registration_failure",
+  "scenario": "ims_timeout",
+  "key_lines": [
+   58,
+   59
+  ]
+ },
+ {
+  "file": "ims_registration_failure_02.log",
+  "category": "ims_registration_failure",
+  "scenario": "ims_auth",
+  "key_lines": [
+   48,
+   51
+  ]
+ },
+ {
+  "file": "ims_registration_failure_03.log",
+  "category": "ims_registration_failure",
+  "scenario": "ims_timeout",
+  "key_lines": [
+   87,
+   89
+  ]
+ },
+ {
+  "file": "ims_registration_failure_04.log",
+  "category": "ims_registration_failure",
+  "scenario": "ims_auth",
+  "key_lines": [
+   81,
+   83
+  ]
+ },
+ {
+  "file": "ims_registration_failure_05.log",
+  "category": "ims_registration_failure",
+  "scenario": "ims_timeout",
+  "key_lines": [
+   48,
+   52
+  ]
+ },
+ {
+  "file": "sim_failure_01.log",
+  "category": "sim_failure",
+  "scenario": "sim_restricted",
+  "key_lines": [
+   64,
+   67
+  ]
+ },
+ {
+  "file": "sim_failure_02.log",
+  "category": "sim_failure",
+  "scenario": "sim_io",
+  "key_lines": [
+   89,
+   90
+  ]
+ },
+ {
+  "file": "sim_failure_03.log",
+  "category": "sim_failure",
+  "scenario": "sim_restricted",
+  "key_lines": [
+   48,
+   49
+  ]
+ },
+ {
+  "file": "sim_failure_04.log",
+  "category": "sim_failure",
+  "scenario": "sim_io",
+  "key_lines": [
+   59,
+   63
+  ]
+ },
+ {
+  "file": "sim_failure_05.log",
+  "category": "sim_failure",
+  "scenario": "sim_restricted",
+  "key_lines": [
+   41,
+   45
+  ]
+ },
+ {
+  "file": "no_fault_01.log",
+  "category": "no_fault",
+  "scenario": "handled_and_retry",
+  "key_lines": []
+ },
+ {
+  "file": "no_fault_02.log",
+  "category": "no_fault",
+  "scenario": "airplane_mode",
+  "key_lines": []
+ },
+ {
+  "file": "no_fault_03.log",
+  "category": "no_fault",
+  "scenario": "handled_and_retry",
+  "key_lines": []
+ },
+ {
+  "file": "no_fault_04.log",
+  "category": "no_fault",
+  "scenario": "airplane_mode",
+  "key_lines": []
+ },
+ {
+  "file": "no_fault_05.log",
+  "category": "no_fault",
+  "scenario": "handled_and_retry",
+  "key_lines": []
+ }
+]

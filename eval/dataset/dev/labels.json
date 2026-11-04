@@ -1,0 +1,234 @@
+[
+ {
+  "file": "java_crash_01.log",
+  "category": "java_crash",
+  "scenario": "java_npe",
+  "key_lines": [
+   88,
+   91,
+   95
+  ]
+ },
+ {
+  "file": "java_crash_02.log",
+  "category": "java_crash",
+  "scenario": "java_state",
+  "key_lines": [
+   81,
+   82,
+   84
+  ]
+ },
+ {
+  "file": "java_crash_03.log",
+  "category": "java_crash",
+  "scenario": "java_npe",
+  "key_lines": [
+   90,
+   92,
+   95
+  ]
+ },
+ {
+  "file": "anr_01.log",
+  "category": "anr",
+  "scenario": "anr_input",
+  "key_lines": [
+   44,
+   47
+  ]
+ },
+ {
+  "file": "anr_02.log",
+  "category": "anr",
+  "scenario": "anr_broadcast",
+  "key_lines": [
+   64,
+   65
+  ]
+ },
+ {
+  "file": "anr_03.log",
+  "category": "anr",
+  "scenario": "anr_input",
+  "key_lines": [
+   63,
+   66
+  ]
+ },
+ {
+  "file": "native_crash_01.log",
+  "category": "native_crash",
+  "scenario": "native_segv",
+  "key_lines": [
+   66,
+   70
+  ]
+ },
+ {
+  "file": "native_crash_02.log",
+  "category": "native_crash",
+  "scenario": "native_abort",
+  "key_lines": [
+   56,
+   60
+  ]
+ },
+ {
+  "file": "native_crash_03.log",
+  "category": "native_crash",
+  "scenario": "native_segv",
+  "key_lines": [
+   47,
+   53
+  ]
+ },
+ {
+  "file": "out_of_memory_01.log",
+  "category": "out_of_memory",
+  "scenario": "oom_java",
+  "key_lines": [
+   63
+  ]
+ },
+ {
+  "file": "out_of_memory_02.log",
+  "category": "out_of_memory",
+  "scenario": "oom_lmk",
+  "key_lines": [
+   44,
+   47
+  ]
+ },
+ {
+  "file": "out_of_memory_03.log",
+  "category": "out_of_memory",
+  "scenario": "oom_java",
+  "key_lines": [
+   63
+  ]
+ },
+ {
+  "file": "network_registration_lost_01.log",
+  "category": "network_registration_lost",
+  "scenario": "reg_oos",
+  "key_lines": [
+   62,
+   66
+  ]
+ },
+ {
+  "file": "network_registration_lost_02.log",
+  "category": "network_registration_lost",
+  "scenario": "reg_reject",
+  "key_lines": [
+   71,
+   73
+  ]
+ },
+ {
+  "file": "network_registration_lost_03.log",
+  "category": "network_registration_lost",
+  "scenario": "reg_oos",
+  "key_lines": [
+   67,
+   70
+  ]
+ },
+ {
+  "file": "data_call_failure_01.log",
+  "category": "data_call_failure",
+  "scenario": "data_apn",
+  "key_lines": [
+   77,
+   81
+  ]
+ },
+ {
+  "file": "data_call_failure_02.log",
+  "category": "data_call_failure",
+  "scenario": "data_ril",
+  "key_lines": [
+   52,
+   59
+  ]
+ },
+ {
+  "file": "data_call_failure_03.log",
+  "category": "data_call_failure",
+  "scenario": "data_apn",
+  "key_lines": [
+   91,
+   94
+  ]
+ },
+ {
+  "file": "ims_registration_failure_01.log",
+  "category": "ims_registration_failure",
+  "scenario": "ims_forbidden",
+  "key_lines": [
+   66
+  ]
+ },
+ {
+  "file": "ims_registration_failure_02.log",
+  "category": "ims_registration_failure",
+  "scenario": "ims_disconnected",
+  "key_lines": [
+   91
+  ]
+ },
+ {
+  "file": "ims_registration_failure_03.log",
+  "category": "ims_registration_failure",
+  "scenario": "ims_forbidden",
+  "key_lines": [
+   41
+  ]
+ },
+ {
+  "file": "sim_failure_01.log",
+  "category": "sim_failure",
+  "scenario": "sim_absent",
+  "key_lines": [
+   61,
+   63
+  ]
+ },
+ {
+  "file": "sim_failure_02.log",
+  "category": "sim_failure",
+  "scenario": "sim_error",
+  "key_lines": [
+   60,
+   62
+  ]
+ },
+ {
+  "file": "sim_failure_03.log",
+  "category": "sim_failure",
+  "scenario": "sim_absent",
+  "key_lines": [
+   73,
+   74
+  ]
+ },
+ {
+  "file": "no_fault_01.log",
+  "category": "no_fault",
+  "scenario": "clean",
+  "key_lines": []
+ },
+ {
+  "file": "no_fault_02.log",
+  "category": "no_fault",
+  "scenario": "flap_recovers",
+  "key_lines": []
+ },
+ {
+  "file": "no_fault_03.log",
+  "category": "no_fault",
+  "scenario": "clean",
+  "key_lines": []
+ }
+]

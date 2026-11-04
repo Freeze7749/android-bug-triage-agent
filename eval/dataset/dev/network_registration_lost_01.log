@@ -1,0 +1,127 @@
+10-15 10:41:33.836   970   973 D DnsResolver: res_nquery: netid=113 rcode=0
+10-15 10:41:34.177   970   981 D WifiService: getWifiEnabledState uid=11897
+10-15 10:41:34.574   970   989 D RILJ    : [5767]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:41:34.640   970   980 I chatty  : uid=9432 identical 25 lines
+10-15 10:41:34.677   970   981 D DnsResolver: res_nquery: netid=119 rcode=0
+10-15 10:41:34.799   970   989 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-82, ssSinr=12} [PHONE0]
+10-15 10:41:35.114   970   978 D DnsResolver: res_nquery: netid=116 rcode=0
+10-15 10:41:35.285   970   971 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:35.529   970   985 I BatteryService: Processing new values: level=75 temperature=269
+10-15 10:41:35.612   970   996 D RILJ    : [1529]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:35.647   970   989 I BatteryService: Processing new values: level=82 temperature=321
+10-15 10:41:35.844   970   989 I ActivityManager: Start proc 9744:com.example.camera/u0a153 for activity
+10-15 10:41:36.232   970  1009 I BatteryService: Processing new values: level=85 temperature=284
+10-15 10:41:36.576   970  1002 I ActivityTaskManager: Displayed com.example.notes/.MainActivity: +478ms
+10-15 10:41:36.761   970  1009 I ActivityManager: Start proc 28159:com.example.notes/u0a212 for activity
+10-15 10:41:36.942   970   973 I ActivityTaskManager: Displayed com.example.camera/.MainActivity: +555ms
+10-15 10:41:37.006   970   979 D DnsResolver: res_nquery: netid=120 rcode=0
+10-15 10:41:37.107   970  1006 I ActivityTaskManager: Displayed com.example.camera/.MainActivity: +447ms
+10-15 10:41:37.252   970   973 I OpenGLRenderer: Davey! duration=1101ms
+10-15 10:41:37.349   970  1004 D DnsResolver: res_nquery: netid=104 rcode=0
+10-15 10:41:37.740   970   995 D RILJ    : [4326]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:37.963   970   991 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:38.125   970   990 D WifiService: getWifiEnabledState uid=6520
+10-15 10:41:38.449   970   993 D RILJ    : [4304]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:41:38.694   970   973 D DnsResolver: res_nquery: netid=118 rcode=0
+10-15 10:41:39.073   970  1004 D WifiService: getWifiEnabledState uid=10961
+10-15 10:41:39.173   970  1008 D RILJ    : [1052]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:41:39.401   970   977 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:39.471   970  1007 I BatteryService: Processing new values: level=54 temperature=342
+10-15 10:41:39.792   970   973 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:40.171   970  1003 I ActivityManager: Start proc 27095:com.example.maps/u0a213 for activity
+10-15 10:41:40.296   970   971 D WifiService: getWifiEnabledState uid=4845
+10-15 10:41:40.544   970   975 I BatteryService: Processing new values: level=46 temperature=326
+10-15 10:41:40.793   970  1002 D RILJ    : [6565]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:40.925   970   990 I ActivityManager: Start proc 18564:com.example.chat/u0a231 for activity
+10-15 10:41:41.163   970   972 D AudioFlinger: mixer(0x39a0) throttle end
+10-15 10:41:41.552   970   975 I ActivityTaskManager: Displayed com.example.chat/.MainActivity: +366ms
+10-15 10:41:41.615   970  1003 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:41.881   970   977 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-106, ssSinr=18} [PHONE0]
+10-15 10:41:42.204   970  1002 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:42.302   970  1006 D WifiService: getWifiEnabledState uid=10820
+10-15 10:41:42.675   970   985 I chatty  : uid=7347 identical 27 lines
+10-15 10:41:42.768   970   970 I OpenGLRenderer: Davey! duration=830ms
+10-15 10:41:42.993   970   989 D AudioFlinger: mixer(0xe78c) throttle end
+10-15 10:41:43.254   970  1003 D AudioFlinger: mixer(0x34bd) throttle end
+10-15 10:41:43.428   970  1005 D RILJ    : [7109]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:41:43.628   970  1006 I OpenGLRenderer: Davey! duration=836ms
+10-15 10:41:43.644   970   988 D RILJ    : [8015]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:41:43.848   970   977 I ActivityManager: Start proc 6799:com.example.maps/u0a262 for activity
+10-15 10:41:44.157   970  1004 E chromium: [ERROR:cache_util.cc(107)] Unable to move cache folder
+10-15 10:41:44.425   970   975 D RILJ    : [1603]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:44.780   970   977 I ActivityTaskManager: Displayed com.example.chat/.MainActivity: +634ms
+10-15 10:41:44.910   970   995 D RILJ    : [7138]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:41:44.934   970   979 I chatty  : uid=6096 identical 21 lines
+10-15 10:41:45.322   970   986 I chatty  : uid=5467 identical 23 lines
+10-15 10:41:45.475   970   974 I OpenGLRenderer: Davey! duration=1154ms
+10-15 10:41:45.532   970  1004 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:41:45.672   970   996 E chromium: [ERROR:cache_util.cc(80)] Unable to move cache folder
+10-15 10:41:46.019   970  1003 I ActivityManager: Start proc 16801:com.example.maps/u0a176 for activity
+10-15 10:41:46.326   970   980 I ActivityManager: Start proc 17945:com.example.notes/u0a110 for activity
+10-15 10:41:46.459   970   992 I chatty  : uid=2894 identical 19 lines
+10-15 10:41:46.751   970  1000 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
+10-15 10:41:47.080   970   971 D RILJ    : [4104]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:47.415   970  1000 D RILJ    : [6705]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:47.747   970  1010 D RILJ    : [1554]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:41:47.900   970   983 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
+10-15 10:41:47.943   970  1001 E chromium: [ERROR:cache_util.cc(151)] Unable to move cache folder
+10-15 10:41:47.977   970   973 D DataNetworkController: Data network disconnected: reason=NOT_IN_SERVICE
+10-15 10:41:48.011   970   988 D DnsResolver: res_nquery: netid=114 rcode=0
+10-15 10:41:48.390   970  1008 D ImsPhone: IMS deregistered: no data connection
+10-15 10:41:48.470   970   980 I ActivityManager: Start proc 8534:com.example.chat/u0a207 for activity
+10-15 10:41:48.677   970   970 I ActivityManager: Start proc 20520:com.example.notes/u0a279 for activity
+10-15 10:41:49.041   970   973 D AudioFlinger: mixer(0x6abf) throttle end
+10-15 10:41:49.270   970  1000 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:49.546   970   997 D WifiService: getWifiEnabledState uid=11748
+10-15 10:41:49.587   970   977 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:41:49.769   970   971 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:41:50.000   970  1001 D RILJ    : [1100]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:50.284   970   996 D DnsResolver: res_nquery: netid=100 rcode=0
+10-15 10:41:50.554   970   971 I BatteryService: Processing new values: level=99 temperature=355
+10-15 10:41:50.645   970   981 I BatteryService: Processing new values: level=61 temperature=367
+10-15 10:41:50.965   970   975 I ActivityManager: Start proc 14023:com.example.maps/u0a217 for activity
+10-15 10:41:51.261   970   985 D WifiService: getWifiEnabledState uid=8452
+10-15 10:41:51.646   970  1000 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:51.852   970   979 E chromium: [ERROR:cache_util.cc(102)] Unable to move cache folder
+10-15 10:41:52.057   970   993 D AudioFlinger: mixer(0x6dd0) throttle end
+10-15 10:41:52.319   970   990 E chromium: [ERROR:cache_util.cc(177)] Unable to move cache folder
+10-15 10:41:52.696   970  1008 E chromium: [ERROR:cache_util.cc(134)] Unable to move cache folder
+10-15 10:41:53.090   970   988 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:41:53.456   970   972 I ActivityTaskManager: Displayed com.example.notes/.MainActivity: +275ms
+10-15 10:41:53.513   970  1006 I BatteryService: Processing new values: level=91 temperature=250
+10-15 10:41:53.806   970   988 E chromium: [ERROR:cache_util.cc(123)] Unable to move cache folder
+10-15 10:41:53.849   970  1001 D AudioFlinger: mixer(0x1883) throttle end
+10-15 10:41:54.201   970  1007 I BatteryService: Processing new values: level=60 temperature=389
+10-15 10:41:54.501   970  1009 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-104, ssSinr=16} [PHONE0]
+10-15 10:41:54.729   970   982 D RILJ    : [2288]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:54.784   970   991 D RILJ    : [1206]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:41:55.140   970  1009 D RILJ    : [9387]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:55.171   970   975 I OpenGLRenderer: Davey! duration=789ms
+10-15 10:41:55.243   970   979 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-97, ssSinr=22} [PHONE0]
+10-15 10:41:55.342   970   999 D DnsResolver: res_nquery: netid=109 rcode=0
+10-15 10:41:55.737   970   970 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:56.017   970  1000 D DnsResolver: res_nquery: netid=100 rcode=0
+10-15 10:41:56.382   970   993 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:41:56.497   970  1002 I OpenGLRenderer: Davey! duration=1299ms
+10-15 10:41:56.790   970  1008 W Bluetooth: Scan not started: adapter is off
+10-15 10:41:57.025   970   983 D DnsResolver: res_nquery: netid=108 rcode=0
+10-15 10:41:57.316   970   974 I BatteryService: Processing new values: level=34 temperature=260
+10-15 10:41:57.659   970   988 I ActivityManager: Start proc 24947:com.example.music/u0a128 for activity
+10-15 10:41:58.023   970   983 I chatty  : uid=1092 identical 14 lines
+10-15 10:41:58.301   970   981 I ActivityTaskManager: Displayed com.example.maps/.MainActivity: +526ms
+10-15 10:41:58.590   970   994 I chatty  : uid=7064 identical 8 lines
+10-15 10:41:58.819   970   981 I ActivityTaskManager: Displayed com.example.chat/.MainActivity: +476ms
+10-15 10:41:58.894   970   974 D RILJ    : [1748]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:41:59.174   970  1010 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:41:59.473   970   989 D DnsResolver: res_nquery: netid=102 rcode=0
+10-15 10:41:59.696   970   978 I OpenGLRenderer: Davey! duration=912ms
+10-15 10:42:00.070   970   977 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:42:00.400   970  1004 D RILJ    : [4770]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:42:00.561   970   994 D AudioFlinger: mixer(0x7d15) throttle end
+10-15 10:42:00.801   970   983 I chatty  : uid=4755 identical 25 lines
+10-15 10:42:01.068   970   974 I BatteryService: Processing new values: level=29 temperature=347
+10-15 10:42:01.414   970  1006 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:42:01.460   970  1010 I BatteryService: Processing new values: level=58 temperature=388
+10-15 10:42:01.724   970  1004 D WifiService: getWifiEnabledState uid=11556
+10-15 10:42:01.987   970   993 I chatty  : uid=11599 identical 29 lines
+10-15 10:42:02.348   970  1007 D RILJ    : [2672]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]

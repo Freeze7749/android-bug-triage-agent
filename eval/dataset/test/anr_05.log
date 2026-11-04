@@ -1,0 +1,140 @@
+10-15 10:38:06.046  1846  1861 D DnsResolver: res_nquery: netid=100 rcode=0
+10-15 10:38:06.300  1846  1863 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:38:06.542  1846  1868 E chromium: [ERROR:cache_util.cc(66)] Unable to move cache folder
+10-15 10:38:06.760  1846  1872 E chromium: [ERROR:cache_util.cc(155)] Unable to move cache folder
+10-15 10:38:07.030  1846  1865 D RILJ    : [5644]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:38:07.097  1846  1857 D DnsResolver: res_nquery: netid=116 rcode=0
+10-15 10:38:07.126  1846  1865 D AudioFlinger: mixer(0x9528) throttle end
+10-15 10:38:07.426  1846  1880 I OpenGLRenderer: Davey! duration=1072ms
+10-15 10:38:07.704  1846  1862 W Bluetooth: Scan not started: adapter is off
+10-15 10:38:07.805  1846  1875 D RILJ    : [8271]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:38:07.904  1846  1870 D WifiService: getWifiEnabledState uid=4085
+10-15 10:38:08.280  1846  1857 W Bluetooth: Scan not started: adapter is off
+10-15 10:38:08.423  1846  1861 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:08.577  1846  1857 W Bluetooth: Scan not started: adapter is off
+10-15 10:38:08.872  1846  1885 D RILJ    : [9499]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:38:08.986  1846  1883 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-95, ssSinr=15} [PHONE0]
+10-15 10:38:09.118  1846  1856 I chatty  : uid=8866 identical 27 lines
+10-15 10:38:09.332  1846  1852 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:09.656  1846  1876 I BatteryService: Processing new values: level=47 temperature=358
+10-15 10:38:09.768  1846  1855 I ActivityManager: Start proc 5198:com.example.maps/u0a141 for activity
+10-15 10:38:09.770  1846  1851 I BatteryService: Processing new values: level=79 temperature=274
+10-15 10:38:09.774  1846  1849 I BatteryService: Processing new values: level=35 temperature=385
+10-15 10:38:10.055  1846  1852 E chromium: [ERROR:cache_util.cc(146)] Unable to move cache folder
+10-15 10:38:10.387  1846  1883 I chatty  : uid=6723 identical 8 lines
+10-15 10:38:10.480  1846  1866 D AudioFlinger: mixer(0xd13b) throttle end
+10-15 10:38:10.653  1846  1849 I OpenGLRenderer: Davey! duration=1130ms
+10-15 10:38:10.895  1846  1886 D DnsResolver: res_nquery: netid=100 rcode=0
+10-15 10:38:11.249  1846  1849 D RILJ    : [5174]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:38:11.532  1846  1876 E chromium: [ERROR:cache_util.cc(200)] Unable to move cache folder
+10-15 10:38:11.703  1846  1881 I BatteryService: Processing new values: level=39 temperature=384
+10-15 10:38:12.069  1846  1868 D RILJ    : [6451]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:38:12.155  1846  1879 I ActivityTaskManager: Displayed com.example.maps/.MainActivity: +619ms
+10-15 10:38:12.308  1846  1858 I ActivityTaskManager: Displayed com.example.camera/.MainActivity: +520ms
+10-15 10:38:12.685  1846  1866 D RILJ    : [3208]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:38:12.850  1846  1868 E chromium: [ERROR:cache_util.cc(53)] Unable to move cache folder
+10-15 10:38:12.984  1846  1886 I OpenGLRenderer: Davey! duration=1354ms
+10-15 10:38:13.039  1846  1857 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:38:13.323  1846  1866 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:13.411  1846  1849 I ActivityManager: Start proc 1618:com.example.chat/u0a216 for activity
+10-15 10:38:13.579  1846  1866 D DnsResolver: res_nquery: netid=101 rcode=0
+10-15 10:38:13.677  1846  1848 W Bluetooth: Scan not started: adapter is off
+10-15 10:38:13.733  1846  1876 I OpenGLRenderer: Davey! duration=1120ms
+10-15 10:38:13.867  1846  1869 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-83, ssSinr=11} [PHONE0]
+10-15 10:38:14.235  1846  1873 I OpenGLRenderer: Davey! duration=922ms
+10-15 10:38:14.573  1846  1856 I ActivityManager: Start proc 17250:com.example.notes/u0a196 for activity
+10-15 10:38:14.727  1846  1877 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:14.772  1846  1860 I ActivityTaskManager: Displayed com.example.chat/.MainActivity: +711ms
+10-15 10:38:14.951  1846  1853 D AudioFlinger: mixer(0x929c) throttle end
+10-15 10:38:14.977  1846  1858 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:38:15.162  1846  1872 I ActivityTaskManager: Displayed com.example.notes/.MainActivity: +388ms
+10-15 10:38:15.492  1846  1882 I chatty  : uid=2919 identical 2 lines
+10-15 10:38:15.887  1846  1876 I ActivityManager: Start proc 19500:com.example.music/u0a107 for activity
+10-15 10:38:15.979  1846  1860 D AudioFlinger: mixer(0x92ba) throttle end
+10-15 10:38:16.083  1846  1849 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-99, ssSinr=3} [PHONE0]
+10-15 10:38:16.413  1846  1853 I OpenGLRenderer: Davey! duration=708ms
+10-15 10:38:16.793  1846  1872 W Bluetooth: Scan not started: adapter is off
+10-15 10:38:17.176  1846  1876 D AudioFlinger: mixer(0xf98f) throttle end
+10-15 10:38:17.222  1846  1870 D DnsResolver: res_nquery: netid=113 rcode=0
+10-15 10:38:17.307  1846  1849 D RILJ    : [4121]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:38:17.321  1846  1862 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:38:17.393  1846  1880 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:17.476  1846  1848 D WifiService: getWifiEnabledState uid=11465
+10-15 10:38:17.823  1846  1885 D RILJ    : [8296]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:38:18.206  1846  1883 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:18.554  1846  1863 D RILJ    : [2957]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:38:18.642  1846  1865 D RILJ    : [7895]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:38:18.912  1846  1879 W ActivityManager: Timeout executing service: ServiceRecord{8c30 u0 com.example.camera/.SyncService}
+10-15 10:38:19.021  1846  1856 I OpenGLRenderer: Davey! duration=724ms
+10-15 10:38:19.332  1846  1873 W Bluetooth: Scan not started: adapter is off
+10-15 10:38:19.572  1846  1886 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:19.838  1846  1873 E ActivityManager: ANR in com.example.camera
+10-15 10:38:20.070  1846  1875 D DnsResolver: res_nquery: netid=100 rcode=0
+10-15 10:38:20.449  1846  1865 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:20.552  1846  1859 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:38:20.570  1846  1880 D DnsResolver: res_nquery: netid=112 rcode=0
+10-15 10:38:20.908  1846  1867 D AudioFlinger: mixer(0x4a69) throttle end
+10-15 10:38:20.925  1846  1856 D RILJ    : [5741]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:38:21.138  1846  1846 D AudioFlinger: mixer(0x5ef3) throttle end
+10-15 10:38:21.432  1846  1846 I BatteryService: Processing new values: level=44 temperature=346
+10-15 10:38:21.478  1846  1868 D DnsResolver: res_nquery: netid=110 rcode=0
+10-15 10:38:21.541  1846  1866 I ActivityTaskManager: Displayed com.example.camera/.MainActivity: +687ms
+10-15 10:38:21.625  1846  1857 I chatty  : uid=11375 identical 11 lines
+10-15 10:38:21.788  1846  1852 D DnsResolver: res_nquery: netid=109 rcode=0
+10-15 10:38:22.158  1846  1858 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +738ms
+10-15 10:38:22.475  1846  1885 I ActivityManager: Start proc 19073:com.example.notes/u0a225 for activity
+10-15 10:38:22.665  1846  1877 I BatteryService: Processing new values: level=54 temperature=371
+10-15 10:38:22.998  1846  1881 D AudioFlinger: mixer(0xa327) throttle end
+10-15 10:38:23.030  1846  1871 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:23.395  1846  1859 D AudioFlinger: mixer(0xb065) throttle end
+10-15 10:38:23.676  1846  1878 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:23.765  1846  1851 I ActivityManager: Start proc 6256:com.example.music/u0a295 for activity
+10-15 10:38:23.791  1846  1858 I ActivityManager: Start proc 8749:com.example.music/u0a158 for activity
+10-15 10:38:24.066  1846  1862 D RILJ    : [8968]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:38:24.413  1846  1877 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:38:24.482  1846  1846 E chromium: [ERROR:cache_util.cc(84)] Unable to move cache folder
+10-15 10:38:24.778  1846  1857 E chromium: [ERROR:cache_util.cc(146)] Unable to move cache folder
+10-15 10:38:25.105  1846  1871 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:25.273  1846  1866 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-103, ssSinr=8} [PHONE0]
+10-15 10:38:25.348  1846  1874 I ActivityTaskManager: Displayed com.example.chat/.MainActivity: +604ms
+10-15 10:38:25.482  1846  1853 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-93, ssSinr=12} [PHONE0]
+10-15 10:38:25.523  1846  1885 I OpenGLRenderer: Davey! duration=1354ms
+10-15 10:38:25.919  1846  1846 D DnsResolver: res_nquery: netid=110 rcode=0
+10-15 10:38:26.067  1846  1865 I chatty  : uid=1891 identical 20 lines
+10-15 10:38:26.265  1846  1874 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:26.498  1846  1858 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:38:26.855  1846  1870 D AudioFlinger: mixer(0x67fb) throttle end
+10-15 10:38:27.191  1846  1864 E chromium: [ERROR:cache_util.cc(75)] Unable to move cache folder
+10-15 10:38:27.266  1846  1862 D DnsResolver: res_nquery: netid=116 rcode=0
+10-15 10:38:27.331  1846  1858 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-83, ssSinr=24} [PHONE0]
+10-15 10:38:27.424  1846  1864 W Bluetooth: Scan not started: adapter is off
+10-15 10:38:27.502  1846  1851 I ActivityTaskManager: Displayed com.example.maps/.MainActivity: +823ms
+10-15 10:38:27.872  1846  1847 I ActivityManager: Start proc 10236:com.example.notes/u0a225 for activity
+10-15 10:38:28.048  1846  1851 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:38:28.403  1846  1883 I OpenGLRenderer: Davey! duration=792ms
+10-15 10:38:28.633  1846  1859 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-83, ssSinr=20} [PHONE0]
+10-15 10:38:28.920  1846  1884 D RILJ    : [2695]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:38:28.979  1846  1873 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-93, ssSinr=13} [PHONE0]
+10-15 10:38:29.376  1846  1859 I ActivityManager: Start proc 6207:com.example.camera/u0a112 for activity
+10-15 10:38:29.658  1846  1880 D WifiService: getWifiEnabledState uid=8989
+10-15 10:38:29.659  1846  1867 D WifiService: getWifiEnabledState uid=5592
+10-15 10:38:29.896  1846  1853 E chromium: [ERROR:cache_util.cc(149)] Unable to move cache folder
+10-15 10:38:30.239  1846  1883 D RILJ    : [2112]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:38:30.325  1846  1872 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:38:30.655  1846  1870 I OpenGLRenderer: Davey! duration=1060ms
+10-15 10:38:30.762  1846  1878 I chatty  : uid=5275 identical 6 lines
+10-15 10:38:30.926  1846  1861 I ActivityTaskManager: Displayed com.example.chat/.MainActivity: +882ms
+10-15 10:38:31.043  1846  1860 I ActivityManager: Start proc 2351:com.example.maps/u0a221 for activity
+10-15 10:38:31.159  1846  1851 E chromium: [ERROR:cache_util.cc(54)] Unable to move cache folder
+10-15 10:38:31.369  1846  1856 D RILJ    : [5579]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:38:31.665  1846  1862 I ActivityTaskManager: Displayed com.example.camera/.MainActivity: +491ms
+10-15 10:38:31.872  1846  1869 I ActivityManager: Start proc 10439:com.example.maps/u0a146 for activity
+10-15 10:38:31.883  1846  1879 D AudioFlinger: mixer(0xc792) throttle end
+10-15 10:38:32.220  1846  1850 E chromium: [ERROR:cache_util.cc(128)] Unable to move cache folder
+10-15 10:38:32.245  1846  1853 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +848ms
+10-15 10:38:32.623  1846  1886 I BatteryService: Processing new values: level=82 temperature=308
+10-15 10:38:32.949  1846  1872 I BatteryService: Processing new values: level=55 temperature=370
+10-15 10:38:33.259  1846  1860 D AudioFlinger: mixer(0x5bf9) throttle end
+10-15 10:38:33.516  1846  1879 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:38:33.748  1846  1861 D DnsResolver: res_nquery: netid=100 rcode=0
+10-15 10:38:34.122  1846  1851 I chatty  : uid=8778 identical 15 lines

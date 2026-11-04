@@ -1,0 +1,573 @@
+{
+ "summary": {
+  "cases": 27,
+  "correct": 26,
+  "accuracy": 0.963,
+  "accuracy_95ci": [
+   0.817,
+   0.993
+  ],
+  "macro_f1": 0.962,
+  "per_class": {
+   "anr": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 3
+   },
+   "data_call_failure": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 3
+   },
+   "ims_registration_failure": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 3
+   },
+   "java_crash": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 3
+   },
+   "native_crash": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 3
+   },
+   "network_registration_lost": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1": 0.857,
+    "support": 3
+   },
+   "no_fault": {
+    "precision": 1.0,
+    "recall": 0.667,
+    "f1": 0.8,
+    "support": 3
+   },
+   "out_of_memory": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 3
+   },
+   "sim_failure": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 3
+   }
+  },
+  "confusion": {
+   "no_fault -> network_registration_lost": 1
+  },
+  "citations_total": 39,
+  "citations_rejected": 0,
+  "citation_validity": 1.0,
+  "correct_fault_cases": 24,
+  "evidence_hit_rate": 1.0,
+  "avg_lines_per_log": 139.1,
+  "avg_templates_per_log": 17.5,
+  "char_reduction": 0.689,
+  "errors": 0,
+  "analyzer": "rules",
+  "model": null,
+  "split": "dev",
+  "date": "2026-11-04",
+  "input_tokens": 0,
+  "output_tokens": 0
+ },
+ "cases": [
+  {
+   "file": "java_crash_01.log",
+   "expected": "java_crash",
+   "key_lines": [
+    88,
+    91,
+    95
+   ],
+   "predicted": "java_crash",
+   "cited_lines": [
+    88
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 149,
+   "templates": 20,
+   "raw_chars": 13386,
+   "digest_chars": 4297
+  },
+  {
+   "file": "java_crash_02.log",
+   "expected": "java_crash",
+   "key_lines": [
+    81,
+    82,
+    84
+   ],
+   "predicted": "java_crash",
+   "cited_lines": [
+    81
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 159,
+   "templates": 19,
+   "raw_chars": 14098,
+   "digest_chars": 4059
+  },
+  {
+   "file": "java_crash_03.log",
+   "expected": "java_crash",
+   "key_lines": [
+    90,
+    92,
+    95
+   ],
+   "predicted": "java_crash",
+   "cited_lines": [
+    90
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 167,
+   "templates": 20,
+   "raw_chars": 15041,
+   "digest_chars": 4298
+  },
+  {
+   "file": "anr_01.log",
+   "expected": "anr",
+   "key_lines": [
+    44,
+    47
+   ],
+   "predicted": "anr",
+   "cited_lines": [
+    44
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 118,
+   "templates": 18,
+   "raw_chars": 10482,
+   "digest_chars": 3932
+  },
+  {
+   "file": "anr_02.log",
+   "expected": "anr",
+   "key_lines": [
+    64,
+    65
+   ],
+   "predicted": "anr",
+   "cited_lines": [
+    64
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 109,
+   "templates": 17,
+   "raw_chars": 9496,
+   "digest_chars": 3812
+  },
+  {
+   "file": "anr_03.log",
+   "expected": "anr",
+   "key_lines": [
+    63,
+    66
+   ],
+   "predicted": "anr",
+   "cited_lines": [
+    63
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 148,
+   "templates": 18,
+   "raw_chars": 13470,
+   "digest_chars": 3943
+  },
+  {
+   "file": "native_crash_01.log",
+   "expected": "native_crash",
+   "key_lines": [
+    66,
+    70
+   ],
+   "predicted": "native_crash",
+   "cited_lines": [
+    66
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 146,
+   "templates": 18,
+   "raw_chars": 13245,
+   "digest_chars": 3993
+  },
+  {
+   "file": "native_crash_02.log",
+   "expected": "native_crash",
+   "key_lines": [
+    56,
+    60
+   ],
+   "predicted": "native_crash",
+   "cited_lines": [
+    56
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 129,
+   "templates": 17,
+   "raw_chars": 11765,
+   "digest_chars": 3819
+  },
+  {
+   "file": "native_crash_03.log",
+   "expected": "native_crash",
+   "key_lines": [
+    47,
+    53
+   ],
+   "predicted": "native_crash",
+   "cited_lines": [
+    47
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 125,
+   "templates": 18,
+   "raw_chars": 11338,
+   "digest_chars": 3986
+  },
+  {
+   "file": "out_of_memory_01.log",
+   "expected": "out_of_memory",
+   "key_lines": [
+    63
+   ],
+   "predicted": "out_of_memory",
+   "cited_lines": [
+    63,
+    58
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 140,
+   "templates": 18,
+   "raw_chars": 12402,
+   "digest_chars": 3941
+  },
+  {
+   "file": "out_of_memory_02.log",
+   "expected": "out_of_memory",
+   "key_lines": [
+    44,
+    47
+   ],
+   "predicted": "out_of_memory",
+   "cited_lines": [
+    44
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 105,
+   "templates": 17,
+   "raw_chars": 9383,
+   "digest_chars": 3809
+  },
+  {
+   "file": "out_of_memory_03.log",
+   "expected": "out_of_memory",
+   "key_lines": [
+    63
+   ],
+   "predicted": "out_of_memory",
+   "cited_lines": [
+    63,
+    58
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 104,
+   "templates": 18,
+   "raw_chars": 9164,
+   "digest_chars": 3922
+  },
+  {
+   "file": "network_registration_lost_01.log",
+   "expected": "network_registration_lost",
+   "key_lines": [
+    62,
+    66
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    62,
+    66
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 127,
+   "templates": 17,
+   "raw_chars": 11248,
+   "digest_chars": 3777
+  },
+  {
+   "file": "network_registration_lost_02.log",
+   "expected": "network_registration_lost",
+   "key_lines": [
+    71,
+    73
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    71,
+    73
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 140,
+   "templates": 18,
+   "raw_chars": 12399,
+   "digest_chars": 3976
+  },
+  {
+   "file": "network_registration_lost_03.log",
+   "expected": "network_registration_lost",
+   "key_lines": [
+    67,
+    70
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    67,
+    70
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 144,
+   "templates": 17,
+   "raw_chars": 13060,
+   "digest_chars": 3778
+  },
+  {
+   "file": "data_call_failure_01.log",
+   "expected": "data_call_failure",
+   "key_lines": [
+    77,
+    81
+   ],
+   "predicted": "data_call_failure",
+   "cited_lines": [
+    77,
+    81
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 172,
+   "templates": 17,
+   "raw_chars": 15394,
+   "digest_chars": 3886
+  },
+  {
+   "file": "data_call_failure_02.log",
+   "expected": "data_call_failure",
+   "key_lines": [
+    52,
+    59
+   ],
+   "predicted": "data_call_failure",
+   "cited_lines": [
+    52,
+    59
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 144,
+   "templates": 17,
+   "raw_chars": 13095,
+   "digest_chars": 3984
+  },
+  {
+   "file": "data_call_failure_03.log",
+   "expected": "data_call_failure",
+   "key_lines": [
+    91,
+    94
+   ],
+   "predicted": "data_call_failure",
+   "cited_lines": [
+    91,
+    94
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 174,
+   "templates": 17,
+   "raw_chars": 15943,
+   "digest_chars": 3883
+  },
+  {
+   "file": "ims_registration_failure_01.log",
+   "expected": "ims_registration_failure",
+   "key_lines": [
+    66
+   ],
+   "predicted": "ims_registration_failure",
+   "cited_lines": [
+    66
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 158,
+   "templates": 17,
+   "raw_chars": 14055,
+   "digest_chars": 3779
+  },
+  {
+   "file": "ims_registration_failure_02.log",
+   "expected": "ims_registration_failure",
+   "key_lines": [
+    91
+   ],
+   "predicted": "ims_registration_failure",
+   "cited_lines": [
+    91
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 187,
+   "templates": 17,
+   "raw_chars": 16468,
+   "digest_chars": 3816
+  },
+  {
+   "file": "ims_registration_failure_03.log",
+   "expected": "ims_registration_failure",
+   "key_lines": [
+    41
+   ],
+   "predicted": "ims_registration_failure",
+   "cited_lines": [
+    41
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 86,
+   "templates": 17,
+   "raw_chars": 7817,
+   "digest_chars": 3666
+  },
+  {
+   "file": "sim_failure_01.log",
+   "expected": "sim_failure",
+   "key_lines": [
+    61,
+    63
+   ],
+   "predicted": "sim_failure",
+   "cited_lines": [
+    61,
+    63,
+    64
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 154,
+   "templates": 19,
+   "raw_chars": 14306,
+   "digest_chars": 4070
+  },
+  {
+   "file": "sim_failure_02.log",
+   "expected": "sim_failure",
+   "key_lines": [
+    60,
+    62
+   ],
+   "predicted": "sim_failure",
+   "cited_lines": [
+    60,
+    62,
+    65
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 155,
+   "templates": 17,
+   "raw_chars": 14143,
+   "digest_chars": 3784
+  },
+  {
+   "file": "sim_failure_03.log",
+   "expected": "sim_failure",
+   "key_lines": [
+    73,
+    74
+   ],
+   "predicted": "sim_failure",
+   "cited_lines": [
+    73,
+    74,
+    77
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 125,
+   "templates": 19,
+   "raw_chars": 11052,
+   "digest_chars": 4065
+  },
+  {
+   "file": "no_fault_01.log",
+   "expected": "no_fault",
+   "key_lines": [],
+   "predicted": "no_fault",
+   "cited_lines": [],
+   "citations_total": 0,
+   "citations_rejected": 0,
+   "lines": 147,
+   "templates": 15,
+   "raw_chars": 13054,
+   "digest_chars": 3503
+  },
+  {
+   "file": "no_fault_02.log",
+   "expected": "no_fault",
+   "key_lines": [],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    52
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 106,
+   "templates": 16,
+   "raw_chars": 9781,
+   "digest_chars": 3612
+  },
+  {
+   "file": "no_fault_03.log",
+   "expected": "no_fault",
+   "key_lines": [],
+   "predicted": "no_fault",
+   "cited_lines": [],
+   "citations_total": 0,
+   "citations_rejected": 0,
+   "lines": 137,
+   "templates": 15,
+   "raw_chars": 12086,
+   "digest_chars": 3501
+  }
+ ]
+}

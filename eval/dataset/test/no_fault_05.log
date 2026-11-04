@@ -1,0 +1,137 @@
+10-15 10:43:17.777  2019  2045 D RILJ    : [5298]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:17.996  2019  2052 D DnsResolver: res_nquery: netid=105 rcode=0
+10-15 10:43:18.268  2019  2047 I BatteryService: Processing new values: level=63 temperature=269
+10-15 10:43:18.635  2019  2032 I chatty  : uid=3529 identical 15 lines
+10-15 10:43:18.883  2019  2023 I BatteryService: Processing new values: level=44 temperature=260
+10-15 10:43:18.894  2019  2034 W Bluetooth: Scan not started: adapter is off
+10-15 10:43:19.178  2019  2019 I OpenGLRenderer: Davey! duration=900ms
+10-15 10:43:19.532  2019  2046 I chatty  : uid=3347 identical 13 lines
+10-15 10:43:19.846  2019  2019 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +602ms
+10-15 10:43:19.923  2019  2036 I chatty  : uid=7147 identical 27 lines
+10-15 10:43:19.948  2019  2024 I chatty  : uid=1017 identical 30 lines
+10-15 10:43:20.135  2019  2038 D WifiService: getWifiEnabledState uid=7753
+10-15 10:43:20.428  2019  2038 D RILJ    : [7394]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:20.767  2019  2056 D RILJ    : [2718]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:20.819  2019  2036 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:43:20.931  2019  2051 I BatteryService: Processing new values: level=64 temperature=371
+10-15 10:43:21.080  2019  2053 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:43:21.373  2019  2035 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +717ms
+10-15 10:43:21.649  2019  2026 I OpenGLRenderer: Davey! duration=1205ms
+10-15 10:43:21.882  2019  2057 I chatty  : uid=6621 identical 20 lines
+10-15 10:43:21.959  2019  2039 D RILJ    : [2164]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:22.287  2019  2022 I BatteryService: Processing new values: level=58 temperature=371
+10-15 10:43:22.362  2019  2036 D DnsResolver: res_nquery: netid=104 rcode=0
+10-15 10:43:22.696  2019  2024 I ActivityManager: Start proc 1749:com.example.chat/u0a108 for activity
+10-15 10:43:22.799  2019  2020 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:43:22.992  2019  2032 D AudioFlinger: mixer(0xc460) throttle end
+10-15 10:43:23.244  2019  2041 E chromium: [ERROR:cache_util.cc(172)] Unable to move cache folder
+10-15 10:43:23.317  2019  2054 I chatty  : uid=10437 identical 22 lines
+10-15 10:43:23.501  2019  2038 D RILJ    : [4771]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:23.578  2019  2042 D RILJ    : [1477]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:23.939  2019  2047 I ActivityTaskManager: Displayed com.example.notes/.MainActivity: +343ms
+10-15 10:43:24.289  2019  2037 I BatteryService: Processing new values: level=74 temperature=340
+10-15 10:43:24.425  2019  2047 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:43:24.496  2019  2027 D RILJ    : [2420]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:24.524  2019  2038 I OpenGLRenderer: Davey! duration=1335ms
+10-15 10:43:24.756  2019  2042 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-83, ssSinr=3} [PHONE0]
+10-15 10:43:24.903  2019  2037 D WifiService: getWifiEnabledState uid=9236
+10-15 10:43:25.220  2019  2037 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-92, ssSinr=2} [PHONE0]
+10-15 10:43:25.369  2019  2020 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:43:25.570  2019  2034 E chromium: [ERROR:cache_util.cc(179)] Unable to move cache folder
+10-15 10:43:25.904  2019  2052 E chromium: [ERROR:cache_util.cc(117)] Unable to move cache folder
+10-15 10:43:26.302  2019  2052 E chromium: [ERROR:cache_util.cc(111)] Unable to move cache folder
+10-15 10:43:26.555  2019  2037 D WifiService: getWifiEnabledState uid=5650
+10-15 10:43:26.877  2019  2043 D WifiService: getWifiEnabledState uid=7105
+10-15 10:43:27.208  2019  2029 D RILJ    : [3477]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:27.262  2019  2055 I ActivityManager: Start proc 27584:com.example.music/u0a246 for activity
+10-15 10:43:27.570  2019  2034 W Bluetooth: Scan not started: adapter is off
+10-15 10:43:27.877  2019  2052 D RILJ    : [2939]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:28.156  2019  2049 E chromium: [ERROR:cache_util.cc(64)] Unable to move cache folder
+10-15 10:43:28.262  2019  2049 D RILJ    : [7729]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:28.519  2019  2022 I ActivityManager: Start proc 10323:com.example.camera/u0a239 for activity
+10-15 10:43:28.909  2019  2038 D AudioFlinger: mixer(0xd3c2) throttle end
+10-15 10:43:29.227  2019  2033 D DnsResolver: res_nquery: netid=113 rcode=0
+10-15 10:43:29.231  2019  2040 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:43:29.286  2019  2050 W Bluetooth: Scan not started: adapter is off
+10-15 10:43:29.683  2019  2034 D RILJ    : [3330]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:29.949  2019  2019 E chromium: [ERROR:cache_util.cc(62)] Unable to move cache folder
+10-15 10:43:29.980  2019  2048 D WifiService: getWifiEnabledState uid=8897
+10-15 10:43:30.004  2019  2040 E chromium: [ERROR:cache_util.cc(151)] Unable to move cache folder
+10-15 10:43:30.077  2019  2045 W Bluetooth: Scan not started: adapter is off
+10-15 10:43:30.455  2019  2049 D AudioFlinger: mixer(0x9e20) throttle end
+10-15 10:43:30.688  2019  2057 I OpenGLRenderer: Davey! duration=1371ms
+10-15 10:43:30.903  2019  2054 I ActivityManager: Start proc 15931:com.example.notes/u0a266 for activity
+10-15 10:43:30.949  2019  2022 D DnsResolver: res_nquery: netid=102 rcode=0
+10-15 10:43:30.991  2019  2039 W System.err: java.io.IOException: unexpected end of stream
+10-15 10:43:31.383  2019  2027 I chatty  : uid=10357 identical 15 lines
+10-15 10:43:31.629  2019  2022 I ActivityManager: Start proc 20464:com.example.chat/u0a175 for activity
+10-15 10:43:31.870  2019  2056 I SyncAdapter: Sync failed, handled, will retry
+10-15 10:43:32.053  2019  2029 E chromium: [ERROR:cache_util.cc(144)] Unable to move cache folder
+10-15 10:43:32.220  2019  2020 I OpenGLRenderer: Davey! duration=1118ms
+10-15 10:43:32.439  2019  2052 D WifiService: getWifiEnabledState uid=7033
+10-15 10:43:32.662  2019  2034 E RILJ    : [9077]< SETUP_DATA_CALL error: com.android.internal.telephony.CommandException: OP_NOT_ALLOWED_DURING_VOICE_CALL
+10-15 10:43:32.671  2019  2042 E chromium: [ERROR:cache_util.cc(91)] Unable to move cache folder
+10-15 10:43:32.929  2019  2039 D DataNetwork: onSetupResponse: resultCode=0 cause=NONE
+10-15 10:43:33.003  2019  2019 I ActivityManager: Start proc 24725:com.example.music/u0a296 for activity
+10-15 10:43:33.119  2019  2036 D RILJ    : [8209]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:33.283  2019  2029 D WifiService: getWifiEnabledState uid=9692
+10-15 10:43:33.284  2019  2043 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-99, ssSinr=4} [PHONE0]
+10-15 10:43:33.510  2019  2038 D AudioFlinger: mixer(0xe9a8) throttle end
+10-15 10:43:33.771  2019  2023 I ActivityManager: Start proc 19364:com.example.music/u0a180 for activity
+10-15 10:43:33.936  2019  2053 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:43:34.025  2019  2029 D WifiService: getWifiEnabledState uid=10050
+10-15 10:43:34.390  2019  2040 D RILJ    : [2407]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:34.714  2019  2022 I chatty  : uid=4533 identical 5 lines
+10-15 10:43:35.055  2019  2050 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:43:35.435  2019  2040 I chatty  : uid=10230 identical 14 lines
+10-15 10:43:35.678  2019  2032 I ActivityTaskManager: Displayed com.example.chat/.MainActivity: +491ms
+10-15 10:43:35.878  2019  2041 D RILJ    : [3747]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:35.995  2019  2049 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:43:36.005  2019  2020 I chatty  : uid=9387 identical 17 lines
+10-15 10:43:36.106  2019  2025 I BatteryService: Processing new values: level=62 temperature=329
+10-15 10:43:36.138  2019  2054 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-109, ssSinr=4} [PHONE0]
+10-15 10:43:36.483  2019  2058 I BatteryService: Processing new values: level=38 temperature=291
+10-15 10:43:36.751  2019  2045 I chatty  : uid=3567 identical 5 lines
+10-15 10:43:37.146  2019  2053 D RILJ    : [4334]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:37.368  2019  2048 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:43:37.704  2019  2019 I ActivityManager: Start proc 10184:com.example.notes/u0a203 for activity
+10-15 10:43:37.975  2019  2030 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:43:38.273  2019  2032 I chatty  : uid=10661 identical 3 lines
+10-15 10:43:38.460  2019  2020 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-109, ssSinr=4} [PHONE0]
+10-15 10:43:38.520  2019  2053 D DnsResolver: res_nquery: netid=108 rcode=0
+10-15 10:43:38.596  2019  2031 D RILJ    : [8319]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:38.888  2019  2058 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:43:39.018  2019  2030 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-87, ssSinr=5} [PHONE0]
+10-15 10:43:39.075  2019  2029 D AudioFlinger: mixer(0x2be6) throttle end
+10-15 10:43:39.288  2019  2051 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:43:39.309  2019  2023 I OpenGLRenderer: Davey! duration=753ms
+10-15 10:43:39.349  2019  2037 W Bluetooth: Scan not started: adapter is off
+10-15 10:43:39.443  2019  2048 I ActivityManager: Start proc 9390:com.example.maps/u0a247 for activity
+10-15 10:43:39.791  2019  2037 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:43:39.940  2019  2055 D RILJ    : [8269]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:40.231  2019  2032 D AudioFlinger: mixer(0x1baa) throttle end
+10-15 10:43:40.302  2019  2059 D RILJ    : [1979]> GET_CURRENT_CALLS [PHONE0]
+10-15 10:43:40.322  2019  2058 D RILJ    : [6356]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:40.431  2019  2035 D WifiService: getWifiEnabledState uid=1798
+10-15 10:43:40.501  2019  2045 W Bluetooth: Scan not started: adapter is off
+10-15 10:43:40.861  2019  2019 D RILJ    : [9925]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:40.892  2019  2026 I ActivityTaskManager: Displayed com.example.notes/.MainActivity: +247ms
+10-15 10:43:41.073  2019  2021 I OpenGLRenderer: Davey! duration=1364ms
+10-15 10:43:41.140  2019  2039 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-89, ssSinr=12} [PHONE0]
+10-15 10:43:41.487  2019  2041 E chromium: [ERROR:cache_util.cc(62)] Unable to move cache folder
+10-15 10:43:41.689  2019  2023 I chatty  : uid=2701 identical 24 lines
+10-15 10:43:42.001  2019  2034 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-105, ssSinr=2} [PHONE0]
+10-15 10:43:42.062  2019  2034 E chromium: [ERROR:cache_util.cc(153)] Unable to move cache folder
+10-15 10:43:42.225  2019  2045 D DnsResolver: res_nquery: netid=115 rcode=0
+10-15 10:43:42.239  2019  2059 I OpenGLRenderer: Davey! duration=902ms
+10-15 10:43:42.387  2019  2029 D DnsResolver: res_nquery: netid=104 rcode=0
+10-15 10:43:42.419  2019  2043 D DnsResolver: res_nquery: netid=102 rcode=0
+10-15 10:43:42.573  2019  2036 W Bluetooth: Scan not started: adapter is off
+10-15 10:43:42.882  2019  2034 D RILJ    : [7278]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:42.997  2019  2047 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:43:43.297  2019  2053 D AudioFlinger: mixer(0x42dd) throttle end
+10-15 10:43:43.661  2019  2026 I chatty  : uid=5373 identical 8 lines
+10-15 10:43:44.045  2019  2044 W Bluetooth: Scan not started: adapter is off
+10-15 10:43:44.125  2019  2023 D RILJ    : [2001]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
+10-15 10:43:44.519  2019  2049 W libEGL  : EGLNativeWindowType has invalid format
+10-15 10:43:44.838  2019  2033 E chromium: [ERROR:cache_util.cc(127)] Unable to move cache folder
