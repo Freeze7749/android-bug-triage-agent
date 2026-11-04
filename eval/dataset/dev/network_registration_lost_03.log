@@ -83,7 +83,7 @@
 10-15 10:27:10.319  2309  2330 D AudioFlinger: mixer(0x674f) throttle end
 10-15 10:27:10.396  2309  2344 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:27:10.664  2309  2330 D WifiService: getWifiEnabledState uid=10814
-10-15 10:27:10.856  2309  2310 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:10.856  2309  2310 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:11.079  2309  2318 D DnsResolver: res_nquery: netid=110 rcode=0
 10-15 10:27:11.473  2309  2323 E chromium: [ERROR:cache_util.cc(87)] Unable to move cache folder
 10-15 10:27:11.521  2309  2338 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +586ms
@@ -110,14 +110,14 @@
 10-15 10:27:15.541  2309  2342 I ActivityManager: Start proc 12812:com.example.music/u0a128 for activity
 10-15 10:27:15.796  2309  2325 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:27:15.985  2309  2335 W Bluetooth: Scan not started: adapter is off
-10-15 10:27:16.151  2309  2329 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:16.151  2309  2329 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:16.292  2309  2332 D RILJ    : [3178]> GET_CURRENT_CALLS [PHONE0]
-10-15 10:27:16.692  2309  2347 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:16.692  2309  2347 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:16.877  2309  2319 D RILJ    : [3163]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:27:17.103  2309  2321 E chromium: [ERROR:cache_util.cc(151)] Unable to move cache folder
 10-15 10:27:17.106  2309  2333 I ActivityManager: Start proc 23538:com.example.music/u0a139 for activity
 10-15 10:27:17.424  2309  2327 D RILJ    : [9372]> GET_CURRENT_CALLS [PHONE0]
-10-15 10:27:17.573  2309  2329 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:17.573  2309  2329 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:17.746  2309  2347 I BatteryService: Processing new values: level=69 temperature=352
 10-15 10:27:18.082  2309  2337 I chatty  : uid=9331 identical 12 lines
 10-15 10:27:18.389  2309  2322 D DnsResolver: res_nquery: netid=113 rcode=0

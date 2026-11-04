@@ -1,13 +1,13 @@
 {
  "summary": {
   "cases": 45,
-  "correct": 6,
-  "accuracy": 0.133,
+  "correct": 11,
+  "accuracy": 0.244,
   "accuracy_95ci": [
-   0.063,
-   0.262
+   0.142,
+   0.387
   ],
-  "macro_f1": 0.167,
+  "macro_f1": 0.232,
   "per_class": {
    "anr": {
     "precision": 1.0,
@@ -40,9 +40,9 @@
     "support": 5
    },
    "network_registration_lost": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1": 0.0,
+    "precision": 0.417,
+    "recall": 1.0,
+    "f1": 0.588,
     "support": 5
    },
    "no_fault": {
@@ -69,24 +69,23 @@
    "anr -> no_fault": 2,
    "native_crash -> no_fault": 5,
    "out_of_memory -> no_fault": 5,
-   "network_registration_lost -> no_fault": 5,
    "data_call_failure -> no_fault": 5,
    "ims_registration_failure -> no_fault": 5,
-   "sim_failure -> no_fault": 5,
+   "sim_failure -> network_registration_lost": 5,
    "no_fault -> data_call_failure": 3,
    "no_fault -> network_registration_lost": 2
   },
-  "citations_total": 13,
+  "citations_total": 53,
   "citations_rejected": 0,
   "citation_validity": 1.0,
-  "correct_fault_cases": 6,
-  "evidence_hit_rate": 1.0,
+  "correct_fault_cases": 11,
+  "evidence_hit_rate": 0.545,
   "avg_lines_per_log": 136.5,
   "avg_templates_per_log": 17.6,
-  "char_reduction": 0.683,
+  "char_reduction": 0.634,
   "errors": 0,
   "analyzer": "rules",
-  "model": null,
+  "models_seen": [],
   "split": "test",
   "date": "2026-11-04",
   "input_tokens": 0,
@@ -110,7 +109,10 @@
    "lines": 154,
    "templates": 18,
    "raw_chars": 13877,
-   "digest_chars": 3915
+   "digest_chars": 4522,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "java_crash_02.log",
@@ -126,7 +128,10 @@
    "lines": 113,
    "templates": 18,
    "raw_chars": 10286,
-   "digest_chars": 4004
+   "digest_chars": 4529,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "java_crash_03.log",
@@ -145,7 +150,10 @@
    "lines": 134,
    "templates": 18,
    "raw_chars": 12053,
-   "digest_chars": 3911
+   "digest_chars": 4518,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "java_crash_04.log",
@@ -161,7 +169,10 @@
    "lines": 109,
    "templates": 18,
    "raw_chars": 9818,
-   "digest_chars": 3985
+   "digest_chars": 4589,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "java_crash_05.log",
@@ -180,7 +191,10 @@
    "lines": 112,
    "templates": 18,
    "raw_chars": 9777,
-   "digest_chars": 3905
+   "digest_chars": 4516,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "anr_01.log",
@@ -198,7 +212,10 @@
    "lines": 141,
    "templates": 17,
    "raw_chars": 13059,
-   "digest_chars": 3793
+   "digest_chars": 4405,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "anr_02.log",
@@ -214,7 +231,10 @@
    "lines": 137,
    "templates": 17,
    "raw_chars": 12771,
-   "digest_chars": 3862
+   "digest_chars": 4472,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "anr_03.log",
@@ -232,7 +252,10 @@
    "lines": 140,
    "templates": 17,
    "raw_chars": 12570,
-   "digest_chars": 3796
+   "digest_chars": 4296,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "anr_04.log",
@@ -248,7 +271,10 @@
    "lines": 137,
    "templates": 17,
    "raw_chars": 12477,
-   "digest_chars": 3864
+   "digest_chars": 4136,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "anr_05.log",
@@ -266,7 +292,10 @@
    "lines": 140,
    "templates": 17,
    "raw_chars": 12588,
-   "digest_chars": 3799
+   "digest_chars": 4406,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "native_crash_01.log",
@@ -282,7 +311,10 @@
    "lines": 113,
    "templates": 18,
    "raw_chars": 10200,
-   "digest_chars": 3900
+   "digest_chars": 4506,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "native_crash_02.log",
@@ -298,7 +330,10 @@
    "lines": 165,
    "templates": 18,
    "raw_chars": 14884,
-   "digest_chars": 3893
+   "digest_chars": 4391,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "native_crash_03.log",
@@ -314,7 +349,10 @@
    "lines": 161,
    "templates": 18,
    "raw_chars": 14029,
-   "digest_chars": 3901
+   "digest_chars": 4507,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "native_crash_04.log",
@@ -330,7 +368,10 @@
    "lines": 163,
    "templates": 18,
    "raw_chars": 14883,
-   "digest_chars": 3901
+   "digest_chars": 4511,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "native_crash_05.log",
@@ -346,7 +387,10 @@
    "lines": 138,
    "templates": 18,
    "raw_chars": 12342,
-   "digest_chars": 3903
+   "digest_chars": 4400,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "out_of_memory_01.log",
@@ -362,7 +406,10 @@
    "lines": 147,
    "templates": 17,
    "raw_chars": 12628,
-   "digest_chars": 3828
+   "digest_chars": 4438,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "out_of_memory_02.log",
@@ -378,7 +425,10 @@
    "lines": 164,
    "templates": 17,
    "raw_chars": 15091,
-   "digest_chars": 3765
+   "digest_chars": 4375,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "out_of_memory_03.log",
@@ -394,7 +444,10 @@
    "lines": 135,
    "templates": 17,
    "raw_chars": 12056,
-   "digest_chars": 3823
+   "digest_chars": 4319,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "out_of_memory_04.log",
@@ -410,7 +463,10 @@
    "lines": 103,
    "templates": 17,
    "raw_chars": 9147,
-   "digest_chars": 3748
+   "digest_chars": 4245,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "out_of_memory_05.log",
@@ -426,7 +482,10 @@
    "lines": 109,
    "templates": 17,
    "raw_chars": 9951,
-   "digest_chars": 3810
+   "digest_chars": 4415,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "network_registration_lost_01.log",
@@ -436,14 +495,23 @@
     74,
     76
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    86,
+    105,
+    110,
+    114,
+    123
+   ],
+   "citations_total": 5,
    "citations_rejected": 0,
    "lines": 163,
    "templates": 18,
-   "raw_chars": 15148,
-   "digest_chars": 3967
+   "raw_chars": 15265,
+   "digest_chars": 4749,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "network_registration_lost_02.log",
@@ -452,14 +520,23 @@
     67,
     70
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    78,
+    94,
+    114,
+    127,
+    128
+   ],
+   "citations_total": 5,
    "citations_rejected": 0,
    "lines": 164,
    "templates": 18,
-   "raw_chars": 14920,
-   "digest_chars": 3918
+   "raw_chars": 15011,
+   "digest_chars": 4699,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "network_registration_lost_03.log",
@@ -469,14 +546,21 @@
     92,
     94
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    97,
+    109,
+    137
+   ],
+   "citations_total": 3,
    "citations_rejected": 0,
    "lines": 140,
    "templates": 18,
-   "raw_chars": 12219,
-   "digest_chars": 3956
+   "raw_chars": 12258,
+   "digest_chars": 4514,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "network_registration_lost_04.log",
@@ -485,14 +569,21 @@
     77,
     79
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    80,
+    103,
+    108
+   ],
+   "citations_total": 3,
    "citations_rejected": 0,
    "lines": 124,
    "templates": 18,
-   "raw_chars": 11182,
-   "digest_chars": 3921
+   "raw_chars": 11221,
+   "digest_chars": 4700,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "network_registration_lost_05.log",
@@ -502,14 +593,23 @@
     92,
     95
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    121,
+    135,
+    137,
+    144,
+    167
+   ],
+   "citations_total": 5,
    "citations_rejected": 0,
    "lines": 175,
    "templates": 18,
-   "raw_chars": 15523,
-   "digest_chars": 3962
+   "raw_chars": 15614,
+   "digest_chars": 4746,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "data_call_failure_01.log",
@@ -525,7 +625,10 @@
    "lines": 152,
    "templates": 17,
    "raw_chars": 13084,
-   "digest_chars": 3927
+   "digest_chars": 4534,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "data_call_failure_02.log",
@@ -541,7 +644,10 @@
    "lines": 122,
    "templates": 17,
    "raw_chars": 10791,
-   "digest_chars": 3742
+   "digest_chars": 4351,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "data_call_failure_03.log",
@@ -557,7 +663,10 @@
    "lines": 157,
    "templates": 17,
    "raw_chars": 13473,
-   "digest_chars": 3923
+   "digest_chars": 4418,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "data_call_failure_04.log",
@@ -573,7 +682,10 @@
    "lines": 132,
    "templates": 17,
    "raw_chars": 11632,
-   "digest_chars": 3742
+   "digest_chars": 4351,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "data_call_failure_05.log",
@@ -589,7 +701,10 @@
    "lines": 91,
    "templates": 17,
    "raw_chars": 8210,
-   "digest_chars": 3821
+   "digest_chars": 4319,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "ims_registration_failure_01.log",
@@ -605,7 +720,10 @@
    "lines": 112,
    "templates": 17,
    "raw_chars": 9920,
-   "digest_chars": 3763
+   "digest_chars": 4371,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "ims_registration_failure_02.log",
@@ -621,7 +739,10 @@
    "lines": 104,
    "templates": 17,
    "raw_chars": 9396,
-   "digest_chars": 3764
+   "digest_chars": 4368,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "ims_registration_failure_03.log",
@@ -637,7 +758,10 @@
    "lines": 149,
    "templates": 17,
    "raw_chars": 13387,
-   "digest_chars": 3777
+   "digest_chars": 4273,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "ims_registration_failure_04.log",
@@ -653,7 +777,10 @@
    "lines": 146,
    "templates": 17,
    "raw_chars": 12825,
-   "digest_chars": 3780
+   "digest_chars": 4389,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "ims_registration_failure_05.log",
@@ -669,7 +796,10 @@
    "lines": 99,
    "templates": 17,
    "raw_chars": 8593,
-   "digest_chars": 3754
+   "digest_chars": 4362,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "sim_failure_01.log",
@@ -678,14 +808,21 @@
     64,
     67
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    86,
+    122,
+    129
+   ],
+   "citations_total": 3,
    "citations_rejected": 0,
    "lines": 129,
    "templates": 18,
-   "raw_chars": 12049,
-   "digest_chars": 3956
+   "raw_chars": 12088,
+   "digest_chars": 4625,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "sim_failure_02.log",
@@ -694,14 +831,22 @@
     89,
     90
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    99,
+    102,
+    113,
+    130
+   ],
+   "citations_total": 4,
    "citations_rejected": 0,
    "lines": 136,
    "templates": 18,
-   "raw_chars": 12278,
-   "digest_chars": 3954
+   "raw_chars": 12330,
+   "digest_chars": 4625,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "sim_failure_03.log",
@@ -710,14 +855,21 @@
     48,
     49
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    87,
+    90,
+    111
+   ],
+   "citations_total": 3,
    "citations_rejected": 0,
    "lines": 113,
    "templates": 18,
-   "raw_chars": 9769,
-   "digest_chars": 3944
+   "raw_chars": 9808,
+   "digest_chars": 4615,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "sim_failure_04.log",
@@ -726,14 +878,23 @@
     59,
     63
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    64,
+    81,
+    83,
+    89,
+    116
+   ],
+   "citations_total": 5,
    "citations_rejected": 0,
    "lines": 152,
    "templates": 18,
-   "raw_chars": 13729,
-   "digest_chars": 3958
+   "raw_chars": 13807,
+   "digest_chars": 4741,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "sim_failure_05.log",
@@ -742,14 +903,22 @@
     41,
     45
    ],
-   "predicted": "no_fault",
-   "cited_lines": [],
-   "citations_total": 0,
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    44,
+    60,
+    81,
+    83
+   ],
+   "citations_total": 4,
    "citations_rejected": 0,
    "lines": 105,
    "templates": 18,
-   "raw_chars": 9486,
-   "digest_chars": 3942
+   "raw_chars": 9538,
+   "digest_chars": 4722,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "no_fault_01.log",
@@ -764,7 +933,10 @@
    "lines": 114,
    "templates": 19,
    "raw_chars": 10244,
-   "digest_chars": 4066
+   "digest_chars": 4560,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "no_fault_02.log",
@@ -780,7 +952,10 @@
    "lines": 153,
    "templates": 18,
    "raw_chars": 13964,
-   "digest_chars": 4012
+   "digest_chars": 4779,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "no_fault_03.log",
@@ -795,7 +970,10 @@
    "lines": 189,
    "templates": 19,
    "raw_chars": 17299,
-   "digest_chars": 4080
+   "digest_chars": 4576,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "no_fault_04.log",
@@ -811,7 +989,10 @@
    "lines": 170,
    "templates": 18,
    "raw_chars": 15687,
-   "digest_chars": 4017
+   "digest_chars": 4781,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "no_fault_05.log",
@@ -826,7 +1007,10 @@
    "lines": 137,
    "templates": 19,
    "raw_chars": 12092,
-   "digest_chars": 4067
+   "digest_chars": 4563,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   }
  ]
 }

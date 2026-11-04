@@ -108,8 +108,8 @@
 10-15 10:48:55.747  1493  1511 D WifiService: getWifiEnabledState uid=1588
 10-15 10:48:55.774  1493  1517 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:48:55.971  1493  1515 D WifiService: getWifiEnabledState uid=9388
-10-15 10:48:56.187  1493  1506 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
-10-15 10:48:56.399  1493  1496 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:48:56.187  1493  1506 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
+10-15 10:48:56.399  1493  1496 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:48:56.612  1493  1504 I ActivityManager: Start proc 11794:com.example.maps/u0a246 for activity
 10-15 10:48:56.676  1493  1496 D RILJ    : [6019]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:48:56.682  1493  1504 D RILJ    : [9292]> GET_CURRENT_CALLS [PHONE0]
@@ -122,4 +122,4 @@
 10-15 10:48:58.139  1493  1527 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +818ms
 10-15 10:48:58.504  1493  1526 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:48:58.710  1493  1508 I ActivityTaskManager: Displayed com.example.notes/.MainActivity: +802ms
-10-15 10:48:59.109  1493  1508 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:48:59.109  1493  1508 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN

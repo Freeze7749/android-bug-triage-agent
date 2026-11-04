@@ -385,13 +385,24 @@ SCENARIOS = {
 }
 
 
-def build_case(scenario, r: random.Random) -> tuple[list[str], list[int]]:
+# After these faults the device stays out of service, so the background must not say otherwise.
+SERVICE_LOST = {"network_registration_lost", "sim_failure"}
+_OUT_OF_SERVICE = "Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN"
+
+
+def build_case(scenario, r: random.Random, category: str = "") -> tuple[list[str], list[int]]:
     """Mix the scenario's lines into background noise. Return (log lines, key line numbers)."""
     entries = [_noise(r) for _ in range(r.randint(40, 90))]
     for item in scenario(r):
         entries.append(item)
         entries.extend(_noise(r) for _ in range(r.randint(0, 3)))
     entries.extend(_noise(r) for _ in range(r.randint(40, 90)))
+
+    if category in SERVICE_LOST:
+        first_key = next(index for index, entry in enumerate(entries) if entry["key"])
+        for entry in entries[first_key:]:
+            if "(IN_SERVICE)" in entry["message"]:
+                entry["message"] = _OUT_OF_SERVICE
 
     pid, milliseconds = r.randint(800, 3000), r.randint(0, 3_000_000)
     lines, key_lines = [], []
@@ -419,7 +430,7 @@ def main() -> None:
             pool = variants[slice_start:slice_end]
             for index in range(per_class):
                 scenario = pool[index % len(pool)]
-                lines, key_lines = build_case(scenario, r)
+                lines, key_lines = build_case(scenario, r, category)
                 name = f"{category}_{index + 1:02d}.log"
                 (folder / name).write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
                 labels.append({"file": name, "category": category, "scenario": scenario.__name__, "key_lines": key_lines})

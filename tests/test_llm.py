@@ -1,10 +1,13 @@
 """Runs the real Anthropic SDK against a fake network, so no key and no cost are involved."""
 import json
+import subprocess
+from pathlib import Path
 
 import anthropic
 import httpx2 as httpx
 import pytest
 
+from triage_agent import claude_cli
 from triage_agent.llm import DEFAULT_MODEL, analyze_with_claude
 from triage_agent.parse import load_log
 from triage_agent.pipeline import triage
@@ -98,3 +101,48 @@ def test_real_citation_survives_end_to_end(sim_log):
     result = triage(sim_log, analyzer="claude", client=_client(_answer(line.number, "cardState=ABSENT")))
     assert result.predicted_category == "sim_failure" and result.rejected_citations == []
     assert (result.input_tokens, result.output_tokens) == (100, 20)
+
+
+def _cli_run(captured, stdout, returncode=0):
+    def run(command, **kwargs):
+        captured.update(command=command, **kwargs)
+        return subprocess.CompletedProcess(command, returncode, stdout, "login needed")
+
+    return run
+
+
+def _cli_output():
+    return json.dumps({
+        "is_error": False,
+        "structured_output": _answer(1, "q"),
+        "usage": {"input_tokens": 2, "cache_creation_input_tokens": 100, "output_tokens": 50},
+        "modelUsage": {"claude-opus-5-5": {}},
+    })
+
+
+def test_cli_runs_isolated_and_uses_subscription(monkeypatch):
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "should-not-be-passed")
+    monkeypatch.setattr(claude_cli, "_executable", lambda: "claude")
+    captured = {}
+    analysis, tokens_in, tokens_out, model = claude_cli.analyze_with_claude_cli("DIGEST", runner=_cli_run(captured, _cli_output()))
+    command = captured["command"]
+    assert command[command.index("--tools") + 1] == "" and command[command.index("--setting-sources") + 1] == ""
+    assert "--strict-mcp-config" in command and "--no-session-persistence" in command
+    assert "ANTHROPIC_API_KEY" not in captured["env"] and captured["input"] == "DIGEST"
+    assert captured["cwd"] != str(Path.cwd())
+    assert (analysis.causes[0].category, tokens_in, tokens_out, model) == ("sim_failure", 102, 50, "claude-opus-5-5")
+
+
+@pytest.mark.parametrize(
+    "stdout, returncode, message",
+    [
+        ("not json", 1, "login needed"),
+        (json.dumps({"is_error": True, "result": "usage limit reached"}), 1, "usage limit"),
+        (json.dumps({"is_error": False, "result": "plain text"}), 0, "no structured output"),
+        (json.dumps({"is_error": False, "structured_output": {"summary": "x"}}), 0, "schema"),
+    ],
+)
+def test_cli_failures_become_clear_errors(monkeypatch, stdout, returncode, message):
+    monkeypatch.setattr(claude_cli, "_executable", lambda: "claude")
+    with pytest.raises(RuntimeError, match=message):
+        claude_cli.analyze_with_claude_cli("D", runner=_cli_run({}, stdout, returncode))

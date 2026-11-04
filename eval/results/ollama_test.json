@@ -1,0 +1,1166 @@
+{
+ "summary": {
+  "cases": 45,
+  "correct": 32,
+  "accuracy": 0.711,
+  "accuracy_95ci": [
+   0.566,
+   0.823
+  ],
+  "macro_f1": 0.743,
+  "per_class": {
+   "anr": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.889,
+    "support": 5
+   },
+   "data_call_failure": {
+    "precision": 0.25,
+    "recall": 0.2,
+    "f1": 0.222,
+    "support": 5
+   },
+   "ims_registration_failure": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 5
+   },
+   "java_crash": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 5
+   },
+   "native_crash": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 5
+   },
+   "network_registration_lost": {
+    "precision": 0.714,
+    "recall": 1.0,
+    "f1": 0.833,
+    "support": 5
+   },
+   "no_fault": {
+    "precision": 0.5,
+    "recall": 0.2,
+    "f1": 0.286,
+    "support": 5
+   },
+   "out_of_memory": {
+    "precision": 1.0,
+    "recall": 0.4,
+    "f1": 0.571,
+    "support": 5
+   },
+   "sim_failure": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.889,
+    "support": 5
+   }
+  },
+  "confusion": {
+   "anr -> unknown": 1,
+   "out_of_memory -> unknown": 2,
+   "out_of_memory -> no_fault": 1,
+   "data_call_failure -> unknown": 3,
+   "data_call_failure -> network_registration_lost": 1,
+   "sim_failure -> network_registration_lost": 1,
+   "no_fault -> data_call_failure": 3,
+   "no_fault -> unknown": 1
+  },
+  "citations_total": 190,
+  "citations_rejected": 9,
+  "citation_validity": 0.953,
+  "correct_fault_cases": 31,
+  "evidence_hit_rate": 0.935,
+  "avg_lines_per_log": 136.5,
+  "avg_templates_per_log": 17.6,
+  "char_reduction": 0.634,
+  "errors": 0,
+  "analyzer": "ollama",
+  "models_seen": [
+   "qwen3:8b"
+  ],
+  "split": "test",
+  "date": "2026-11-04",
+  "input_tokens": 130963,
+  "output_tokens": 23007
+ },
+ "cases": [
+  {
+   "file": "java_crash_01.log",
+   "expected": "java_crash",
+   "key_lines": [
+    78,
+    79,
+    82
+   ],
+   "predicted": "java_crash",
+   "cited_lines": [
+    82,
+    79
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 154,
+   "templates": 18,
+   "raw_chars": 13877,
+   "digest_chars": 4522,
+   "model": "qwen3:8b",
+   "input_tokens": 2937,
+   "output_tokens": 311
+  },
+  {
+   "file": "java_crash_02.log",
+   "expected": "java_crash",
+   "key_lines": [
+    60,
+    61
+   ],
+   "predicted": "java_crash",
+   "cited_lines": [
+    60,
+    61,
+    62
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 113,
+   "templates": 18,
+   "raw_chars": 10286,
+   "digest_chars": 4529,
+   "model": "qwen3:8b",
+   "input_tokens": 2888,
+   "output_tokens": 530
+  },
+  {
+   "file": "java_crash_03.log",
+   "expected": "java_crash",
+   "key_lines": [
+    58,
+    60,
+    63
+   ],
+   "predicted": "java_crash",
+   "cited_lines": [
+    63
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 134,
+   "templates": 18,
+   "raw_chars": 12053,
+   "digest_chars": 4518,
+   "model": "qwen3:8b",
+   "input_tokens": 2929,
+   "output_tokens": 264
+  },
+  {
+   "file": "java_crash_04.log",
+   "expected": "java_crash",
+   "key_lines": [
+    59,
+    63
+   ],
+   "predicted": "java_crash",
+   "cited_lines": [
+    59,
+    63,
+    64
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 109,
+   "templates": 18,
+   "raw_chars": 9818,
+   "digest_chars": 4589,
+   "model": "qwen3:8b",
+   "input_tokens": 2929,
+   "output_tokens": 444
+  },
+  {
+   "file": "java_crash_05.log",
+   "expected": "java_crash",
+   "key_lines": [
+    63,
+    64,
+    67
+   ],
+   "predicted": "java_crash",
+   "cited_lines": [
+    67,
+    64,
+    63
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 112,
+   "templates": 18,
+   "raw_chars": 9777,
+   "digest_chars": 4516,
+   "model": "qwen3:8b",
+   "input_tokens": 2926,
+   "output_tokens": 291
+  },
+  {
+   "file": "anr_01.log",
+   "expected": "anr",
+   "key_lines": [
+    86,
+    89
+   ],
+   "predicted": "unknown",
+   "cited_lines": [
+    89,
+    34,
+    140,
+    19,
+    129
+   ],
+   "citations_total": 5,
+   "citations_rejected": 0,
+   "lines": 141,
+   "templates": 17,
+   "raw_chars": 13059,
+   "digest_chars": 4405,
+   "model": "qwen3:8b",
+   "input_tokens": 2866,
+   "output_tokens": 949
+  },
+  {
+   "file": "anr_02.log",
+   "expected": "anr",
+   "key_lines": [
+    91,
+    92
+   ],
+   "predicted": "anr",
+   "cited_lines": [
+    91,
+    92,
+    32,
+    55,
+    7,
+    131
+   ],
+   "citations_total": 6,
+   "citations_rejected": 0,
+   "lines": 137,
+   "templates": 17,
+   "raw_chars": 12771,
+   "digest_chars": 4472,
+   "model": "qwen3:8b",
+   "input_tokens": 2879,
+   "output_tokens": 564
+  },
+  {
+   "file": "anr_03.log",
+   "expected": "anr",
+   "key_lines": [
+    59,
+    63
+   ],
+   "predicted": "anr",
+   "cited_lines": [
+    63,
+    8,
+    2
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 140,
+   "templates": 17,
+   "raw_chars": 12570,
+   "digest_chars": 4296,
+   "model": "qwen3:8b",
+   "input_tokens": 2809,
+   "output_tokens": 572
+  },
+  {
+   "file": "anr_04.log",
+   "expected": "anr",
+   "key_lines": [
+    90,
+    94
+   ],
+   "predicted": "anr",
+   "cited_lines": [
+    90,
+    94,
+    2,
+    137
+   ],
+   "citations_total": 4,
+   "citations_rejected": 0,
+   "lines": 137,
+   "templates": 17,
+   "raw_chars": 12477,
+   "digest_chars": 4136,
+   "model": "qwen3:8b",
+   "input_tokens": 2711,
+   "output_tokens": 446
+  },
+  {
+   "file": "anr_05.log",
+   "expected": "anr",
+   "key_lines": [
+    67,
+    71
+   ],
+   "predicted": "anr",
+   "cited_lines": [
+    71,
+    9,
+    110,
+    13,
+    138
+   ],
+   "citations_total": 5,
+   "citations_rejected": 0,
+   "lines": 140,
+   "templates": 17,
+   "raw_chars": 12588,
+   "digest_chars": 4406,
+   "model": "qwen3:8b",
+   "input_tokens": 2869,
+   "output_tokens": 733
+  },
+  {
+   "file": "native_crash_01.log",
+   "expected": "native_crash",
+   "key_lines": [
+    65,
+    66
+   ],
+   "predicted": "native_crash",
+   "cited_lines": [
+    66,
+    65
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 113,
+   "templates": 18,
+   "raw_chars": 10200,
+   "digest_chars": 4506,
+   "model": "qwen3:8b",
+   "input_tokens": 2950,
+   "output_tokens": 400
+  },
+  {
+   "file": "native_crash_02.log",
+   "expected": "native_crash",
+   "key_lines": [
+    74,
+    78
+   ],
+   "predicted": "native_crash",
+   "cited_lines": [
+    78,
+    150,
+    14,
+    144,
+    82
+   ],
+   "citations_total": 5,
+   "citations_rejected": 0,
+   "lines": 165,
+   "templates": 18,
+   "raw_chars": 14884,
+   "digest_chars": 4391,
+   "model": "qwen3:8b",
+   "input_tokens": 2888,
+   "output_tokens": 764
+  },
+  {
+   "file": "native_crash_03.log",
+   "expected": "native_crash",
+   "key_lines": [
+    83,
+    87
+   ],
+   "predicted": "native_crash",
+   "cited_lines": [
+    87,
+    83
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 161,
+   "templates": 18,
+   "raw_chars": 14029,
+   "digest_chars": 4507,
+   "model": "qwen3:8b",
+   "input_tokens": 2959,
+   "output_tokens": 410
+  },
+  {
+   "file": "native_crash_04.log",
+   "expected": "native_crash",
+   "key_lines": [
+    84,
+    87
+   ],
+   "predicted": "native_crash",
+   "cited_lines": [
+    87
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 163,
+   "templates": 18,
+   "raw_chars": 14883,
+   "digest_chars": 4511,
+   "model": "qwen3:8b",
+   "input_tokens": 2948,
+   "output_tokens": 313
+  },
+  {
+   "file": "native_crash_05.log",
+   "expected": "native_crash",
+   "key_lines": [
+    61,
+    63
+   ],
+   "predicted": "native_crash",
+   "cited_lines": [
+    63,
+    61,
+    9,
+    132,
+    27,
+    128
+   ],
+   "citations_total": 6,
+   "citations_rejected": 0,
+   "lines": 138,
+   "templates": 18,
+   "raw_chars": 12342,
+   "digest_chars": 4400,
+   "model": "qwen3:8b",
+   "input_tokens": 2905,
+   "output_tokens": 797
+  },
+  {
+   "file": "out_of_memory_01.log",
+   "expected": "out_of_memory",
+   "key_lines": [
+    62,
+    64
+   ],
+   "predicted": "unknown",
+   "cited_lines": [],
+   "citations_total": 0,
+   "citations_rejected": 0,
+   "lines": 147,
+   "templates": 17,
+   "raw_chars": 12628,
+   "digest_chars": 4438,
+   "model": "qwen3:8b",
+   "input_tokens": 2884,
+   "output_tokens": 180
+  },
+  {
+   "file": "out_of_memory_02.log",
+   "expected": "out_of_memory",
+   "key_lines": [
+    74,
+    75
+   ],
+   "predicted": "out_of_memory",
+   "cited_lines": [
+    74,
+    75
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 164,
+   "templates": 17,
+   "raw_chars": 15091,
+   "digest_chars": 4375,
+   "model": "qwen3:8b",
+   "input_tokens": 2882,
+   "output_tokens": 376
+  },
+  {
+   "file": "out_of_memory_03.log",
+   "expected": "out_of_memory",
+   "key_lines": [
+    62,
+    63
+   ],
+   "predicted": "unknown",
+   "cited_lines": [
+    14,
+    102,
+    10,
+    125,
+    62,
+    63
+   ],
+   "citations_total": 6,
+   "citations_rejected": 0,
+   "lines": 135,
+   "templates": 17,
+   "raw_chars": 12056,
+   "digest_chars": 4319,
+   "model": "qwen3:8b",
+   "input_tokens": 2824,
+   "output_tokens": 630
+  },
+  {
+   "file": "out_of_memory_04.log",
+   "expected": "out_of_memory",
+   "key_lines": [
+    48,
+    52
+   ],
+   "predicted": "out_of_memory",
+   "cited_lines": [
+    48,
+    52
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 103,
+   "templates": 17,
+   "raw_chars": 9147,
+   "digest_chars": 4245,
+   "model": "qwen3:8b",
+   "input_tokens": 2807,
+   "output_tokens": 310
+  },
+  {
+   "file": "out_of_memory_05.log",
+   "expected": "out_of_memory",
+   "key_lines": [
+    64,
+    67
+   ],
+   "predicted": "no_fault",
+   "cited_lines": [
+    64,
+    67,
+    2,
+    16
+   ],
+   "citations_total": 4,
+   "citations_rejected": 0,
+   "lines": 109,
+   "templates": 17,
+   "raw_chars": 9951,
+   "digest_chars": 4415,
+   "model": "qwen3:8b",
+   "input_tokens": 2869,
+   "output_tokens": 504
+  },
+  {
+   "file": "network_registration_lost_01.log",
+   "expected": "network_registration_lost",
+   "key_lines": [
+    70,
+    74,
+    76
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    86,
+    163,
+    77,
+    76
+   ],
+   "citations_total": 5,
+   "citations_rejected": 1,
+   "lines": 163,
+   "templates": 18,
+   "raw_chars": 15265,
+   "digest_chars": 4749,
+   "model": "qwen3:8b",
+   "input_tokens": 3056,
+   "output_tokens": 625
+  },
+  {
+   "file": "network_registration_lost_02.log",
+   "expected": "network_registration_lost",
+   "key_lines": [
+    67,
+    70
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    78,
+    158,
+    2,
+    8,
+    14
+   ],
+   "citations_total": 5,
+   "citations_rejected": 0,
+   "lines": 164,
+   "templates": 18,
+   "raw_chars": 15011,
+   "digest_chars": 4699,
+   "model": "qwen3:8b",
+   "input_tokens": 3012,
+   "output_tokens": 526
+  },
+  {
+   "file": "network_registration_lost_03.log",
+   "expected": "network_registration_lost",
+   "key_lines": [
+    90,
+    92,
+    94
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    97,
+    137,
+    94
+   ],
+   "citations_total": 4,
+   "citations_rejected": 1,
+   "lines": 140,
+   "templates": 18,
+   "raw_chars": 12258,
+   "digest_chars": 4514,
+   "model": "qwen3:8b",
+   "input_tokens": 2933,
+   "output_tokens": 522
+  },
+  {
+   "file": "network_registration_lost_04.log",
+   "expected": "network_registration_lost",
+   "key_lines": [
+    77,
+    79
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    80,
+    108,
+    79,
+    82,
+    77,
+    2,
+    1
+   ],
+   "citations_total": 7,
+   "citations_rejected": 0,
+   "lines": 124,
+   "templates": 18,
+   "raw_chars": 11221,
+   "digest_chars": 4700,
+   "model": "qwen3:8b",
+   "input_tokens": 2931,
+   "output_tokens": 639
+  },
+  {
+   "file": "network_registration_lost_05.log",
+   "expected": "network_registration_lost",
+   "key_lines": [
+    91,
+    92,
+    95
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    121,
+    174,
+    97,
+    4,
+    13
+   ],
+   "citations_total": 5,
+   "citations_rejected": 0,
+   "lines": 175,
+   "templates": 18,
+   "raw_chars": 15614,
+   "digest_chars": 4746,
+   "model": "qwen3:8b",
+   "input_tokens": 3055,
+   "output_tokens": 549
+  },
+  {
+   "file": "data_call_failure_01.log",
+   "expected": "data_call_failure",
+   "key_lines": [
+    80,
+    81
+   ],
+   "predicted": "unknown",
+   "cited_lines": [],
+   "citations_total": 0,
+   "citations_rejected": 0,
+   "lines": 152,
+   "templates": 17,
+   "raw_chars": 13084,
+   "digest_chars": 4534,
+   "model": "qwen3:8b",
+   "input_tokens": 2934,
+   "output_tokens": 141
+  },
+  {
+   "file": "data_call_failure_02.log",
+   "expected": "data_call_failure",
+   "key_lines": [
+    50,
+    52
+   ],
+   "predicted": "data_call_failure",
+   "cited_lines": [
+    52,
+    6,
+    108,
+    8,
+    122
+   ],
+   "citations_total": 6,
+   "citations_rejected": 1,
+   "lines": 122,
+   "templates": 17,
+   "raw_chars": 10791,
+   "digest_chars": 4351,
+   "model": "qwen3:8b",
+   "input_tokens": 2868,
+   "output_tokens": 526
+  },
+  {
+   "file": "data_call_failure_03.log",
+   "expected": "data_call_failure",
+   "key_lines": [
+    88,
+    91
+   ],
+   "predicted": "unknown",
+   "cited_lines": [
+    13,
+    3,
+    152,
+    149
+   ],
+   "citations_total": 4,
+   "citations_rejected": 0,
+   "lines": 157,
+   "templates": 17,
+   "raw_chars": 13473,
+   "digest_chars": 4418,
+   "model": "qwen3:8b",
+   "input_tokens": 2869,
+   "output_tokens": 383
+  },
+  {
+   "file": "data_call_failure_04.log",
+   "expected": "data_call_failure",
+   "key_lines": [
+    70,
+    74
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    74,
+    8,
+    22
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 132,
+   "templates": 17,
+   "raw_chars": 11632,
+   "digest_chars": 4351,
+   "model": "qwen3:8b",
+   "input_tokens": 2866,
+   "output_tokens": 424
+  },
+  {
+   "file": "data_call_failure_05.log",
+   "expected": "data_call_failure",
+   "key_lines": [
+    44,
+    46
+   ],
+   "predicted": "unknown",
+   "cited_lines": [
+    50
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 91,
+   "templates": 17,
+   "raw_chars": 8210,
+   "digest_chars": 4319,
+   "model": "qwen3:8b",
+   "input_tokens": 2808,
+   "output_tokens": 400
+  },
+  {
+   "file": "ims_registration_failure_01.log",
+   "expected": "ims_registration_failure",
+   "key_lines": [
+    58,
+    59
+   ],
+   "predicted": "ims_registration_failure",
+   "cited_lines": [
+    59,
+    58,
+    11
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 112,
+   "templates": 17,
+   "raw_chars": 9920,
+   "digest_chars": 4371,
+   "model": "qwen3:8b",
+   "input_tokens": 2855,
+   "output_tokens": 423
+  },
+  {
+   "file": "ims_registration_failure_02.log",
+   "expected": "ims_registration_failure",
+   "key_lines": [
+    48,
+    51
+   ],
+   "predicted": "ims_registration_failure",
+   "cited_lines": [
+    48,
+    51,
+    42,
+    94,
+    11,
+    100,
+    19,
+    104
+   ],
+   "citations_total": 8,
+   "citations_rejected": 0,
+   "lines": 104,
+   "templates": 17,
+   "raw_chars": 9396,
+   "digest_chars": 4368,
+   "model": "qwen3:8b",
+   "input_tokens": 2846,
+   "output_tokens": 985
+  },
+  {
+   "file": "ims_registration_failure_03.log",
+   "expected": "ims_registration_failure",
+   "key_lines": [
+    87,
+    89
+   ],
+   "predicted": "ims_registration_failure",
+   "cited_lines": [
+    89,
+    87,
+    16,
+    137,
+    7,
+    135
+   ],
+   "citations_total": 6,
+   "citations_rejected": 0,
+   "lines": 149,
+   "templates": 17,
+   "raw_chars": 13387,
+   "digest_chars": 4273,
+   "model": "qwen3:8b",
+   "input_tokens": 2821,
+   "output_tokens": 534
+  },
+  {
+   "file": "ims_registration_failure_04.log",
+   "expected": "ims_registration_failure",
+   "key_lines": [
+    81,
+    83
+   ],
+   "predicted": "ims_registration_failure",
+   "cited_lines": [
+    81,
+    83,
+    108,
+    100,
+    20,
+    2,
+    9
+   ],
+   "citations_total": 7,
+   "citations_rejected": 0,
+   "lines": 146,
+   "templates": 17,
+   "raw_chars": 12825,
+   "digest_chars": 4389,
+   "model": "qwen3:8b",
+   "input_tokens": 2869,
+   "output_tokens": 770
+  },
+  {
+   "file": "ims_registration_failure_05.log",
+   "expected": "ims_registration_failure",
+   "key_lines": [
+    48,
+    52
+   ],
+   "predicted": "ims_registration_failure",
+   "cited_lines": [
+    52,
+    48,
+    6,
+    40
+   ],
+   "citations_total": 4,
+   "citations_rejected": 0,
+   "lines": 99,
+   "templates": 17,
+   "raw_chars": 8593,
+   "digest_chars": 4362,
+   "model": "qwen3:8b",
+   "input_tokens": 2853,
+   "output_tokens": 450
+  },
+  {
+   "file": "sim_failure_01.log",
+   "expected": "sim_failure",
+   "key_lines": [
+    64,
+    67
+   ],
+   "predicted": "network_registration_lost",
+   "cited_lines": [
+    86,
+    129,
+    64,
+    67,
+    3,
+    8
+   ],
+   "citations_total": 6,
+   "citations_rejected": 0,
+   "lines": 129,
+   "templates": 18,
+   "raw_chars": 12088,
+   "digest_chars": 4625,
+   "model": "qwen3:8b",
+   "input_tokens": 2947,
+   "output_tokens": 614
+  },
+  {
+   "file": "sim_failure_02.log",
+   "expected": "sim_failure",
+   "key_lines": [
+    89,
+    90
+   ],
+   "predicted": "sim_failure",
+   "cited_lines": [
+    89,
+    90,
+    99,
+    130,
+    99,
+    130
+   ],
+   "citations_total": 9,
+   "citations_rejected": 3,
+   "lines": 136,
+   "templates": 18,
+   "raw_chars": 12330,
+   "digest_chars": 4625,
+   "model": "qwen3:8b",
+   "input_tokens": 2958,
+   "output_tokens": 729
+  },
+  {
+   "file": "sim_failure_03.log",
+   "expected": "sim_failure",
+   "key_lines": [
+    48,
+    49
+   ],
+   "predicted": "sim_failure",
+   "cited_lines": [
+    48,
+    49,
+    111,
+    111,
+    53,
+    111
+   ],
+   "citations_total": 9,
+   "citations_rejected": 3,
+   "lines": 113,
+   "templates": 18,
+   "raw_chars": 9808,
+   "digest_chars": 4615,
+   "model": "qwen3:8b",
+   "input_tokens": 2932,
+   "output_tokens": 751
+  },
+  {
+   "file": "sim_failure_04.log",
+   "expected": "sim_failure",
+   "key_lines": [
+    59,
+    63
+   ],
+   "predicted": "sim_failure",
+   "cited_lines": [
+    59,
+    63,
+    94,
+    64,
+    119,
+    18,
+    9,
+    20,
+    148
+   ],
+   "citations_total": 9,
+   "citations_rejected": 0,
+   "lines": 152,
+   "templates": 18,
+   "raw_chars": 13807,
+   "digest_chars": 4741,
+   "model": "qwen3:8b",
+   "input_tokens": 3022,
+   "output_tokens": 700
+  },
+  {
+   "file": "sim_failure_05.log",
+   "expected": "sim_failure",
+   "key_lines": [
+    41,
+    45
+   ],
+   "predicted": "sim_failure",
+   "cited_lines": [
+    41,
+    45,
+    1,
+    44,
+    83,
+    44,
+    83,
+    48
+   ],
+   "citations_total": 8,
+   "citations_rejected": 0,
+   "lines": 105,
+   "templates": 18,
+   "raw_chars": 9538,
+   "digest_chars": 4722,
+   "model": "qwen3:8b",
+   "input_tokens": 2989,
+   "output_tokens": 680
+  },
+  {
+   "file": "no_fault_01.log",
+   "expected": "no_fault",
+   "key_lines": [],
+   "predicted": "data_call_failure",
+   "cited_lines": [
+    48
+   ],
+   "citations_total": 1,
+   "citations_rejected": 0,
+   "lines": 114,
+   "templates": 19,
+   "raw_chars": 10244,
+   "digest_chars": 4560,
+   "model": "qwen3:8b",
+   "input_tokens": 2858,
+   "output_tokens": 270
+  },
+  {
+   "file": "no_fault_02.log",
+   "expected": "no_fault",
+   "key_lines": [],
+   "predicted": "unknown",
+   "cited_lines": [],
+   "citations_total": 0,
+   "citations_rejected": 0,
+   "lines": 153,
+   "templates": 18,
+   "raw_chars": 13964,
+   "digest_chars": 4779,
+   "model": "qwen3:8b",
+   "input_tokens": 3062,
+   "output_tokens": 175
+  },
+  {
+   "file": "no_fault_03.log",
+   "expected": "no_fault",
+   "key_lines": [],
+   "predicted": "data_call_failure",
+   "cited_lines": [
+    93,
+    17,
+    87,
+    53,
+    1,
+    15,
+    22,
+    60,
+    2,
+    14
+   ],
+   "citations_total": 10,
+   "citations_rejected": 0,
+   "lines": 189,
+   "templates": 19,
+   "raw_chars": 17299,
+   "digest_chars": 4576,
+   "model": "qwen3:8b",
+   "input_tokens": 2950,
+   "output_tokens": 583
+  },
+  {
+   "file": "no_fault_04.log",
+   "expected": "no_fault",
+   "key_lines": [],
+   "predicted": "no_fault",
+   "cited_lines": [
+    72,
+    83
+   ],
+   "citations_total": 2,
+   "citations_rejected": 0,
+   "lines": 170,
+   "templates": 18,
+   "raw_chars": 15687,
+   "digest_chars": 4781,
+   "model": "qwen3:8b",
+   "input_tokens": 3072,
+   "output_tokens": 373
+  },
+  {
+   "file": "no_fault_05.log",
+   "expected": "no_fault",
+   "key_lines": [],
+   "predicted": "data_call_failure",
+   "cited_lines": [
+    72,
+    27,
+    137
+   ],
+   "citations_total": 3,
+   "citations_rejected": 0,
+   "lines": 137,
+   "templates": 19,
+   "raw_chars": 12092,
+   "digest_chars": 4563,
+   "model": "qwen3:8b",
+   "input_tokens": 2938,
+   "output_tokens": 447
+  }
+ ]
+}

@@ -83,7 +83,7 @@
 10-15 10:10:04.984  2722  2737 I ActivityManager: Start proc 5852:com.example.music/u0a135 for activity
 10-15 10:10:05.039  2722  2754 D RILJ    : [3346]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:10:05.175  2722  2738 E chromium: [ERROR:cache_util.cc(167)] Unable to move cache folder
-10-15 10:10:05.483  2722  2736 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:10:05.483  2722  2736 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:10:05.796  2722  2727 I BatteryService: Processing new values: level=22 temperature=373
 10-15 10:10:05.997  2722  2729 D WifiService: getWifiEnabledState uid=5605
 10-15 10:10:06.129  2722  2725 D WifiService: getWifiEnabledState uid=6735
@@ -102,16 +102,16 @@
 10-15 10:10:08.729  2722  2746 D RILJ    : [5293]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:10:09.105  2722  2744 I BatteryService: Processing new values: level=89 temperature=374
 10-15 10:10:09.177  2722  2741 I chatty  : uid=3627 identical 19 lines
-10-15 10:10:09.263  2722  2733 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:10:09.263  2722  2733 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:10:09.662  2722  2749 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-96, ssSinr=5} [PHONE0]
 10-15 10:10:09.930  2722  2739 I BatteryService: Processing new values: level=66 temperature=379
 10-15 10:10:09.932  2722  2756 I ActivityManager: Start proc 26065:com.example.chat/u0a217 for activity
 10-15 10:10:10.027  2722  2734 I BatteryService: Processing new values: level=63 temperature=352
-10-15 10:10:10.084  2722  2736 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:10:10.084  2722  2736 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:10:10.268  2722  2759 W Bluetooth: Scan not started: adapter is off
 10-15 10:10:10.657  2722  2723 E chromium: [ERROR:cache_util.cc(133)] Unable to move cache folder
 10-15 10:10:10.689  2722  2754 I BatteryService: Processing new values: level=98 temperature=343
-10-15 10:10:10.810  2722  2735 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:10:10.810  2722  2735 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:10:10.966  2722  2752 D AudioFlinger: mixer(0x3b2f) throttle end
 10-15 10:10:11.148  2722  2755 I ActivityTaskManager: Displayed com.example.maps/.MainActivity: +378ms
 10-15 10:10:11.536  2722  2724 I chatty  : uid=3646 identical 7 lines
@@ -120,13 +120,13 @@
 10-15 10:10:11.913  2722  2738 D RILJ    : [1205]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:10:12.040  2722  2725 I BatteryService: Processing new values: level=58 temperature=323
 10-15 10:10:12.327  2722  2761 D RILJ    : [7058]> GET_CURRENT_CALLS [PHONE0]
-10-15 10:10:12.549  2722  2739 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:10:12.549  2722  2739 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:10:12.806  2722  2762 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:10:12.807  2722  2756 I OpenGLRenderer: Davey! duration=846ms
 10-15 10:10:13.054  2722  2761 W Bluetooth: Scan not started: adapter is off
 10-15 10:10:13.306  2722  2732 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:10:13.453  2722  2753 D AudioFlinger: mixer(0x3cc9) throttle end
-10-15 10:10:13.652  2722  2755 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:10:13.652  2722  2755 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:10:13.676  2722  2735 E chromium: [ERROR:cache_util.cc(182)] Unable to move cache folder
 10-15 10:10:13.922  2722  2753 I BatteryService: Processing new values: level=68 temperature=252
 10-15 10:10:14.186  2722  2741 D RILJ    : [9015]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
@@ -145,7 +145,7 @@
 10-15 10:10:16.831  2722  2744 I ActivityTaskManager: Displayed com.example.notes/.MainActivity: +329ms
 10-15 10:10:17.204  2722  2758 I OpenGLRenderer: Davey! duration=1390ms
 10-15 10:10:17.465  2722  2753 D RILJ    : [4354]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
-10-15 10:10:17.488  2722  2732 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:10:17.488  2722  2732 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:10:17.594  2722  2727 I ActivityManager: Start proc 9741:com.example.music/u0a207 for activity
 10-15 10:10:17.871  2722  2757 D RILJ    : [6458]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:10:18.004  2722  2740 E chromium: [ERROR:cache_util.cc(109)] Unable to move cache folder
@@ -156,8 +156,8 @@
 10-15 10:10:19.044  2722  2761 I ActivityTaskManager: Displayed com.example.camera/.MainActivity: +577ms
 10-15 10:10:19.157  2722  2724 I BatteryService: Processing new values: level=44 temperature=332
 10-15 10:10:19.381  2722  2737 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-85, ssSinr=18} [PHONE0]
-10-15 10:10:19.548  2722  2729 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:10:19.548  2722  2729 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:10:19.778  2722  2755 W Bluetooth: Scan not started: adapter is off
 10-15 10:10:19.992  2722  2734 D RILJ    : [9526]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:10:20.183  2722  2740 I OpenGLRenderer: Davey! duration=1252ms
-10-15 10:10:20.245  2722  2744 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:10:20.245  2722  2744 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN

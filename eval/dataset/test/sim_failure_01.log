@@ -83,7 +83,7 @@
 10-15 10:19:04.883  2553  2587 E chromium: [ERROR:cache_util.cc(119)] Unable to move cache folder
 10-15 10:19:04.979  2553  2566 W Bluetooth: Scan not started: adapter is off
 10-15 10:19:05.294  2553  2587 D DnsResolver: res_nquery: netid=107 rcode=0
-10-15 10:19:05.406  2553  2576 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:19:05.406  2553  2576 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:19:05.452  2553  2554 D RILJ    : [7456]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:19:05.806  2553  2574 W Bluetooth: Scan not started: adapter is off
 10-15 10:19:05.818  2553  2588 E chromium: [ERROR:cache_util.cc(182)] Unable to move cache folder
@@ -119,11 +119,11 @@
 10-15 10:19:12.492  2553  2559 I chatty  : uid=7943 identical 15 lines
 10-15 10:19:12.742  2553  2565 I ActivityTaskManager: Displayed com.example.maps/.MainActivity: +320ms
 10-15 10:19:12.945  2553  2573 I ActivityManager: Start proc 5504:com.example.camera/u0a241 for activity
-10-15 10:19:13.105  2553  2577 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:19:13.105  2553  2577 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:19:13.125  2553  2574 I ActivityManager: Start proc 24691:com.example.music/u0a120 for activity
 10-15 10:19:13.318  2553  2571 D DnsResolver: res_nquery: netid=115 rcode=0
 10-15 10:19:13.530  2553  2582 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-86, ssSinr=23} [PHONE0]
 10-15 10:19:13.903  2553  2563 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-86, ssSinr=15} [PHONE0]
 10-15 10:19:14.079  2553  2555 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +601ms
 10-15 10:19:14.378  2553  2563 W libEGL  : EGLNativeWindowType has invalid format
-10-15 10:19:14.618  2553  2580 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:19:14.618  2553  2580 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN

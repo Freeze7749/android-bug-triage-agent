@@ -162,3 +162,12 @@ def test_test_split_only_uses_held_out_scenarios():
 def test_only_fault_cases_have_key_lines():
     for case in _labels("test"):
         assert bool(case["key_lines"]) == (case["category"] != "no_fault")
+
+
+@pytest.mark.parametrize("split", ["dev", "test"])
+def test_service_never_returns_after_a_service_loss_fault(split):
+    folder = ROOT / "eval" / "dataset" / split
+    for case in _labels(split):
+        if case["category"] in ("network_registration_lost", "sim_failure"):
+            lines = (folder / case["file"]).read_text("utf-8").splitlines()
+            assert not any("(IN_SERVICE)" in line for line in lines[case["key_lines"][0] - 1 :]), case["file"]

@@ -58,7 +58,7 @@ def main(argv: list[str] | None = None) -> int:
 
     command = commands.add_parser("analyze", help="find causes and draft a bug report")
     command.add_argument("log")
-    command.add_argument("--analyzer", choices=["auto", "rules", "claude"], default="auto")
+    command.add_argument("--analyzer", choices=["auto", "rules", "claude", "claude-cli", "ollama"], default="auto")
     command.add_argument("--symptom", default="", help="what the tester saw")
     command.add_argument("--out", help="folder for report.md, jira_fields.json, result.json")
     command.add_argument("--project", default="PROJ", help="Jira project key")

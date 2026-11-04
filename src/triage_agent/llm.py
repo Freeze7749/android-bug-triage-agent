@@ -11,7 +11,7 @@ _FALLBACK_BETA = "server-side-fallback-2026-07-01"
 
 SYSTEM_PROMPT = """You triage Android logcat and radio logs for a QA engineer.
 
-You receive a digest: log templates, most severe and rarest first, each with up to two real
+You receive a digest: log templates, most severe and rarest first, each with a few real
 lines written as `L<number>: <line>`. Personal identifiers are already masked.
 
 Choose the root cause, not its consequences. Losing the SIM also loses registration, data and

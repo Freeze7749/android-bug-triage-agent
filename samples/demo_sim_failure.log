@@ -66,11 +66,11 @@
 10-15 10:27:05.693  1146  1152 D DataNetworkController: Data network disconnected: reason=NOT_IN_SERVICE
 10-15 10:27:06.006  1146  1159 W Bluetooth: Scan not started: adapter is off
 10-15 10:27:06.102  1146  1180 D ImsPhone: IMS deregistered: no data connection
-10-15 10:27:06.372  1146  1175 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:06.372  1146  1175 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:06.576  1146  1156 D RILJ    : [9572]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:27:06.828  1146  1151 W Bluetooth: Scan not started: adapter is off
 10-15 10:27:06.951  1146  1166 W Bluetooth: Scan not started: adapter is off
-10-15 10:27:07.146  1146  1181 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:07.146  1146  1181 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:07.513  1146  1182 E chromium: [ERROR:cache_util.cc(62)] Unable to move cache folder
 10-15 10:27:07.531  1146  1167 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-110, ssSinr=24} [PHONE0]
 10-15 10:27:07.888  1146  1173 I BatteryService: Processing new values: level=38 temperature=363
@@ -87,10 +87,10 @@
 10-15 10:27:09.823  1146  1148 D RILJ    : [8692]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:27:10.117  1146  1156 I ActivityManager: Start proc 27391:com.example.camera/u0a171 for activity
 10-15 10:27:10.118  1146  1183 I ActivityManager: Start proc 29722:com.example.maps/u0a253 for activity
-10-15 10:27:10.130  1146  1165 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:10.130  1146  1165 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:10.366  1146  1182 D RILJ    : [6095]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:27:10.412  1146  1155 E chromium: [ERROR:cache_util.cc(83)] Unable to move cache folder
-10-15 10:27:10.615  1146  1153 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:10.615  1146  1153 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:10.767  1146  1159 D RILJ    : [5585]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:27:10.782  1146  1159 I ActivityManager: Start proc 17777:com.example.notes/u0a240 for activity
 10-15 10:27:11.000  1146  1147 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +334ms
@@ -103,7 +103,7 @@
 10-15 10:27:12.366  1146  1165 D RILJ    : [7139]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:27:12.640  1146  1161 D DnsResolver: res_nquery: netid=100 rcode=0
 10-15 10:27:12.999  1146  1169 D AudioFlinger: mixer(0x1164) throttle end
-10-15 10:27:13.133  1146  1153 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:13.133  1146  1153 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:13.217  1146  1156 E chromium: [ERROR:cache_util.cc(176)] Unable to move cache folder
 10-15 10:27:13.236  1146  1169 I ActivityManager: Start proc 15667:com.example.notes/u0a214 for activity
 10-15 10:27:13.615  1146  1150 I BatteryService: Processing new values: level=28 temperature=350
@@ -111,7 +111,7 @@
 10-15 10:27:14.037  1146  1172 I chatty  : uid=10169 identical 28 lines
 10-15 10:27:14.116  1146  1147 I chatty  : uid=8521 identical 14 lines
 10-15 10:27:14.165  1146  1163 I ActivityManager: Start proc 23297:com.example.camera/u0a285 for activity
-10-15 10:27:14.416  1146  1170 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:14.416  1146  1170 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:14.614  1146  1147 I ActivityTaskManager: Displayed com.example.maps/.MainActivity: +725ms
 10-15 10:27:14.861  1146  1179 I BatteryService: Processing new values: level=61 temperature=269
 10-15 10:27:15.023  1146  1158 D RILJ    : [8937]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
@@ -130,7 +130,7 @@
 10-15 10:27:17.245  1146  1151 D WifiService: getWifiEnabledState uid=2270
 10-15 10:27:17.425  1146  1149 I chatty  : uid=7916 identical 30 lines
 10-15 10:27:17.712  1146  1159 E chromium: [ERROR:cache_util.cc(123)] Unable to move cache folder
-10-15 10:27:17.998  1146  1185 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:17.998  1146  1185 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:18.382  1146  1178 D RILJ    : [1439]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:27:18.649  1146  1180 D RILJ    : [2160]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:27:19.022  1146  1162 W libEGL  : EGLNativeWindowType has invalid format
@@ -146,7 +146,7 @@
 10-15 10:27:21.100  1146  1156 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-104, ssSinr=4} [PHONE0]
 10-15 10:27:21.469  1146  1149 D RILJ    : [9723]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:27:21.741  1146  1174 D RILJ    : [3790]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
-10-15 10:27:21.930  1146  1150 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:27:21.930  1146  1150 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:27:21.973  1146  1178 D AudioFlinger: mixer(0xb122) throttle end
 10-15 10:27:22.106  1146  1157 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-100, ssSinr=6} [PHONE0]
 10-15 10:27:22.484  1146  1156 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-100, ssSinr=22} [PHONE0]

@@ -75,7 +75,7 @@
 10-15 10:13:26.816  2250  2288 I ActivityManager: Start proc 23958:com.example.music/u0a255 for activity
 10-15 10:13:26.862  2250  2264 D AudioFlinger: mixer(0x9df7) throttle end
 10-15 10:13:27.162  2250  2286 D DnsResolver: res_nquery: netid=114 rcode=0
-10-15 10:13:27.398  2250  2272 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:13:27.398  2250  2272 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:13:27.552  2250  2280 I ActivityTaskManager: Displayed com.example.chat/.MainActivity: +862ms
 10-15 10:13:27.795  2250  2268 I ActivityTaskManager: Displayed com.example.camera/.MainActivity: +451ms
 10-15 10:13:27.819  2250  2258 D AudioFlinger: mixer(0xf597) throttle end
@@ -91,7 +91,7 @@
 10-15 10:13:29.992  2250  2256 D AudioFlinger: mixer(0x6844) throttle end
 10-15 10:13:30.210  2250  2280 D RILJ    : [6453]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:13:30.373  2250  2259 D WifiService: getWifiEnabledState uid=5695
-10-15 10:13:30.595  2250  2254 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:13:30.595  2250  2254 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:13:30.893  2250  2258 I ActivityManager: Start proc 20282:com.example.camera/u0a275 for activity
 10-15 10:13:31.212  2250  2284 D RILJ    : [3707]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:13:31.365  2250  2255 I ActivityManager: Start proc 29820:com.example.notes/u0a184 for activity
@@ -111,7 +111,7 @@
 10-15 10:13:34.409  2250  2257 I chatty  : uid=10081 identical 15 lines
 10-15 10:13:34.446  2250  2266 I chatty  : uid=6215 identical 3 lines
 10-15 10:13:34.485  2250  2254 I OpenGLRenderer: Davey! duration=1199ms
-10-15 10:13:34.854  2250  2260 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:13:34.854  2250  2260 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:13:35.050  2250  2262 D WifiService: getWifiEnabledState uid=11905
 10-15 10:13:35.235  2250  2263 D WifiService: getWifiEnabledState uid=1272
 10-15 10:13:35.371  2250  2267 I OpenGLRenderer: Davey! duration=857ms
@@ -124,8 +124,8 @@
 10-15 10:13:36.915  2250  2289 E chromium: [ERROR:cache_util.cc(114)] Unable to move cache folder
 10-15 10:13:37.063  2250  2261 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-97, ssSinr=15} [PHONE0]
 10-15 10:13:37.239  2250  2259 W Bluetooth: Scan not started: adapter is off
-10-15 10:13:37.323  2250  2268 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
-10-15 10:13:37.720  2250  2283 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:13:37.323  2250  2268 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
+10-15 10:13:37.720  2250  2283 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:13:37.929  2250  2259 W Bluetooth: Scan not started: adapter is off
 10-15 10:13:37.975  2250  2283 D WifiService: getWifiEnabledState uid=3618
 10-15 10:13:38.086  2250  2266 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +392ms
@@ -141,7 +141,7 @@
 10-15 10:13:41.015  2250  2285 D WifiService: getWifiEnabledState uid=11667
 10-15 10:13:41.366  2250  2271 D WifiService: getWifiEnabledState uid=7688
 10-15 10:13:41.596  2250  2287 W Bluetooth: Scan not started: adapter is off
-10-15 10:13:41.720  2250  2288 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:13:41.720  2250  2288 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:13:42.092  2250  2253 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-86, ssSinr=2} [PHONE0]
 10-15 10:13:42.205  2250  2287 I chatty  : uid=4665 identical 24 lines
 10-15 10:13:42.432  2250  2268 W Bluetooth: Scan not started: adapter is off
@@ -155,7 +155,7 @@
 10-15 10:13:44.031  2250  2274 D DnsResolver: res_nquery: netid=112 rcode=0
 10-15 10:13:44.348  2250  2287 I chatty  : uid=2813 identical 17 lines
 10-15 10:13:44.412  2250  2260 I ActivityManager: Start proc 22145:com.example.notes/u0a117 for activity
-10-15 10:13:44.669  2250  2265 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:13:44.669  2250  2265 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:13:44.763  2250  2271 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:13:45.056  2250  2271 D AudioFlinger: mixer(0xd3d6) throttle end
 10-15 10:13:45.455  2250  2261 W libEGL  : EGLNativeWindowType has invalid format

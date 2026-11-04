@@ -2,6 +2,8 @@
 
     python eval/run_eval.py --analyzer rules --split test
     python eval/run_eval.py --analyzer claude --split test
+    python eval/run_eval.py --analyzer claude-cli --split test
+    python eval/run_eval.py --analyzer ollama --split test
 """
 import argparse
 import json
@@ -15,6 +17,7 @@ from triage_agent.llm import DEFAULT_MODEL
 from triage_agent.pipeline import triage
 
 HERE = Path(__file__).parent
+MAX_FAILURES_IN_A_ROW = 3
 PRICE_PER_MILLION = {"claude-opus-5-5": (4.0, 20.0)}  # input, output in USD
 
 
@@ -81,8 +84,19 @@ def run(analyzer: str, split: str, limit: int | None = None) -> dict:
     if limit:
         labels = labels[:limit]
 
-    rows, input_tokens, output_tokens = [], 0, 0
+    # Finished cases are saved as we go, so a usage limit or crash does not lose or repeat paid work.
+    checkpoint = HERE / "results" / f"{analyzer}_{split}.partial.jsonl"
+    checkpoint.parent.mkdir(exist_ok=True)
+    done = {}
+    if checkpoint.exists() and not limit:
+        rows_saved = [json.loads(line) for line in checkpoint.read_text(encoding="utf-8").splitlines()]
+        done = {row["file"]: row for row in rows_saved}
+
+    rows, failures_in_a_row = [], 0
     for label in labels:
+        if label["file"] in done:
+            rows.append(done[label["file"]])
+            continue
         row = {"file": label["file"], "expected": label["category"], "key_lines": label["key_lines"]}
         try:
             result = triage(folder / label["file"], analyzer=analyzer)
@@ -95,25 +109,37 @@ def run(analyzer: str, split: str, limit: int | None = None) -> dict:
                 templates=result.template_count,
                 raw_chars=result.raw_chars,
                 digest_chars=result.digest_chars,
+                model=result.model,
+                input_tokens=result.input_tokens,
+                output_tokens=result.output_tokens,
             )
-            input_tokens += result.input_tokens
-            output_tokens += result.output_tokens
+            failures_in_a_row = 0
+            if not limit:
+                with checkpoint.open("a", encoding="utf-8", newline="\n") as handle:
+                    handle.write(json.dumps(row) + "\n")
         except Exception as error:  # One failed API call must not lose the whole paid run.
             print(f"{label['file']}: {error}", file=sys.stderr)
+            failures_in_a_row += 1
             row.update(predicted="error", cited_lines=[], citations_total=0, citations_rejected=0,
                        lines=0, templates=0, raw_chars=0, digest_chars=0, error=str(error))
         print(f"{row['file']}: expected={row['expected']} predicted={row['predicted']}")
         rows.append(row)
+        if failures_in_a_row >= MAX_FAILURES_IN_A_ROW:
+            sys.exit(f"Stopped after {failures_in_a_row} failures in a row. Rerun the same command later to continue.")
 
     summary = score(rows)
+    input_tokens = sum(row.get("input_tokens", 0) for row in rows)
+    output_tokens = sum(row.get("output_tokens", 0) for row in rows)
     summary.update(
         analyzer=analyzer,
-        model=DEFAULT_MODEL if analyzer == "claude" else None,
+        models_seen=sorted({row["model"] for row in rows if row.get("model")}),
         split=split,
         date=datetime.now(timezone.utc).date().isoformat(),
         input_tokens=input_tokens,
         output_tokens=output_tokens,
     )
+    if not limit and summary["errors"] == 0:
+        checkpoint.unlink(missing_ok=True)
     if analyzer == "claude":
         price_in, price_out = PRICE_PER_MILLION[DEFAULT_MODEL]
         summary["estimated_cost_usd"] = round((input_tokens * price_in + output_tokens * price_out) / 1_000_000, 4)
@@ -122,7 +148,7 @@ def run(analyzer: str, split: str, limit: int | None = None) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--analyzer", choices=["rules", "claude"], required=True)
+    parser.add_argument("--analyzer", choices=["rules", "claude", "claude-cli", "ollama"], required=True)
     parser.add_argument("--split", choices=["dev", "test"], required=True)
     parser.add_argument("--limit", type=int, help="score only the first N cases (results are not saved)")
     args = parser.parse_args()

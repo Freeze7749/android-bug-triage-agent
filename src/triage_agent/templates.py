@@ -1,4 +1,5 @@
 """Compress log lines into templates with Drain, and render them as a short digest."""
+import re
 from collections import Counter
 
 from drain3 import TemplateMiner
@@ -9,6 +10,7 @@ from .models import LogLine, Template
 
 _LEVEL_RANK = {"F": 0, "E": 1, "W": 2, "I": 3, "D": 4, "V": 5, "S": 6, "": 3}
 _MAX_LINE_CHARS = 300
+_MAX_VARIANTS = 3
 
 
 def _new_miner() -> TemplateMiner:
@@ -56,14 +58,28 @@ def _priority(template: Template) -> tuple:
     return (_LEVEL_RANK.get(template.level, 3), len(template.line_numbers), template.line_numbers[0])
 
 
+def _sample_numbers(template: Template, by_number: dict[int, LogLine]) -> list[int]:
+    """Pick the lines to show: the rarest wordings, plus the last line to show how things ended.
+
+    Drain can merge lines that differ in one meaningful word, such as IN_SERVICE and
+    OUT_OF_SERVICE, so showing only the first and last line could hide the fault.
+    """
+    variants: dict[str, list[int]] = {}
+    for number in template.line_numbers:
+        wording = re.sub(r"\d+", "#", by_number[number].message)
+        variants.setdefault(wording, []).append(number)
+    rarest = sorted(variants.values(), key=len)[:_MAX_VARIANTS]
+    return sorted({numbers[0] for numbers in rarest} | {template.line_numbers[-1]})
+
+
 def build_digest(lines: list[LogLine], templates: list[Template], max_templates: int = 150) -> str:
-    """Text sent to the LLM: each template with its first and last real line."""
+    """Text sent to the LLM: each template with a few real lines."""
     by_number = {line.number: line for line in lines}
     selected = sorted(templates, key=_priority)[:max_templates]
     rows = [f"Log has {len(lines)} lines and {len(templates)} templates. Showing {len(selected)}."]
     for template in selected:
-        numbers = template.line_numbers
-        rows.append(f"T{template.id} count={len(numbers)} level={template.level or '?'} tag={template.tag or '?'}")
-        for number in sorted({numbers[0], numbers[-1]}):
+        count = len(template.line_numbers)
+        rows.append(f"T{template.id} count={count} level={template.level or '?'} tag={template.tag or '?'}")
+        for number in _sample_numbers(template, by_number):
             rows.append(f"  L{number}: {by_number[number].text[:_MAX_LINE_CHARS]}")
     return "\n".join(rows)

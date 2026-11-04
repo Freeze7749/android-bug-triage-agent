@@ -67,17 +67,17 @@
   "confusion": {
    "no_fault -> network_registration_lost": 1
   },
-  "citations_total": 39,
+  "citations_total": 59,
   "citations_rejected": 0,
   "citation_validity": 1.0,
   "correct_fault_cases": 24,
   "evidence_hit_rate": 1.0,
   "avg_lines_per_log": 139.1,
   "avg_templates_per_log": 17.5,
-  "char_reduction": 0.689,
+  "char_reduction": 0.642,
   "errors": 0,
   "analyzer": "rules",
-  "model": null,
+  "models_seen": [],
   "split": "dev",
   "date": "2026-11-04",
   "input_tokens": 0,
@@ -101,7 +101,10 @@
    "lines": 149,
    "templates": 20,
    "raw_chars": 13386,
-   "digest_chars": 4297
+   "digest_chars": 4903,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "java_crash_02.log",
@@ -120,7 +123,10 @@
    "lines": 159,
    "templates": 19,
    "raw_chars": 14098,
-   "digest_chars": 4059
+   "digest_chars": 4554,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "java_crash_03.log",
@@ -139,7 +145,10 @@
    "lines": 167,
    "templates": 20,
    "raw_chars": 15041,
-   "digest_chars": 4298
+   "digest_chars": 4909,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "anr_01.log",
@@ -157,7 +166,10 @@
    "lines": 118,
    "templates": 18,
    "raw_chars": 10482,
-   "digest_chars": 3932
+   "digest_chars": 4426,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "anr_02.log",
@@ -175,7 +187,10 @@
    "lines": 109,
    "templates": 17,
    "raw_chars": 9496,
-   "digest_chars": 3812
+   "digest_chars": 4196,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "anr_03.log",
@@ -193,7 +208,10 @@
    "lines": 148,
    "templates": 18,
    "raw_chars": 13470,
-   "digest_chars": 3943
+   "digest_chars": 4552,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "native_crash_01.log",
@@ -211,7 +229,10 @@
    "lines": 146,
    "templates": 18,
    "raw_chars": 13245,
-   "digest_chars": 3993
+   "digest_chars": 4601,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "native_crash_02.log",
@@ -229,7 +250,10 @@
    "lines": 129,
    "templates": 17,
    "raw_chars": 11765,
-   "digest_chars": 3819
+   "digest_chars": 4315,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "native_crash_03.log",
@@ -247,7 +271,10 @@
    "lines": 125,
    "templates": 18,
    "raw_chars": 11338,
-   "digest_chars": 3986
+   "digest_chars": 4371,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "out_of_memory_01.log",
@@ -265,7 +292,10 @@
    "lines": 140,
    "templates": 18,
    "raw_chars": 12402,
-   "digest_chars": 3941
+   "digest_chars": 4436,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "out_of_memory_02.log",
@@ -283,7 +313,10 @@
    "lines": 105,
    "templates": 17,
    "raw_chars": 9383,
-   "digest_chars": 3809
+   "digest_chars": 4305,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "out_of_memory_03.log",
@@ -301,7 +334,10 @@
    "lines": 104,
    "templates": 18,
    "raw_chars": 9164,
-   "digest_chars": 3922
+   "digest_chars": 4528,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "network_registration_lost_01.log",
@@ -313,14 +349,20 @@
    "predicted": "network_registration_lost",
    "cited_lines": [
     62,
-    66
+    66,
+    76,
+    118,
+    123
    ],
-   "citations_total": 2,
+   "citations_total": 5,
    "citations_rejected": 0,
    "lines": 127,
    "templates": 17,
-   "raw_chars": 11248,
-   "digest_chars": 3777
+   "raw_chars": 11287,
+   "digest_chars": 4448,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "network_registration_lost_02.log",
@@ -332,14 +374,20 @@
    "predicted": "network_registration_lost",
    "cited_lines": [
     71,
-    73
+    73,
+    96,
+    111,
+    140
    ],
-   "citations_total": 2,
+   "citations_total": 5,
    "citations_rejected": 0,
    "lines": 140,
    "templates": 18,
-   "raw_chars": 12399,
-   "digest_chars": 3976
+   "raw_chars": 12438,
+   "digest_chars": 4760,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "network_registration_lost_03.log",
@@ -351,14 +399,20 @@
    "predicted": "network_registration_lost",
    "cited_lines": [
     67,
-    70
+    70,
+    86,
+    113,
+    115
    ],
-   "citations_total": 2,
+   "citations_total": 5,
    "citations_rejected": 0,
    "lines": 144,
    "templates": 17,
-   "raw_chars": 13060,
-   "digest_chars": 3778
+   "raw_chars": 13112,
+   "digest_chars": 4447,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "data_call_failure_01.log",
@@ -377,7 +431,10 @@
    "lines": 172,
    "templates": 17,
    "raw_chars": 15394,
-   "digest_chars": 3886
+   "digest_chars": 4382,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "data_call_failure_02.log",
@@ -396,7 +453,10 @@
    "lines": 144,
    "templates": 17,
    "raw_chars": 13095,
-   "digest_chars": 3984
+   "digest_chars": 4590,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "data_call_failure_03.log",
@@ -415,7 +475,10 @@
    "lines": 174,
    "templates": 17,
    "raw_chars": 15943,
-   "digest_chars": 3883
+   "digest_chars": 4487,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "ims_registration_failure_01.log",
@@ -432,7 +495,10 @@
    "lines": 158,
    "templates": 17,
    "raw_chars": 14055,
-   "digest_chars": 3779
+   "digest_chars": 4385,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "ims_registration_failure_02.log",
@@ -449,7 +515,10 @@
    "lines": 187,
    "templates": 17,
    "raw_chars": 16468,
-   "digest_chars": 3816
+   "digest_chars": 4419,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "ims_registration_failure_03.log",
@@ -466,7 +535,10 @@
    "lines": 86,
    "templates": 17,
    "raw_chars": 7817,
-   "digest_chars": 3666
+   "digest_chars": 4050,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "sim_failure_01.log",
@@ -479,14 +551,21 @@
    "cited_lines": [
     61,
     63,
-    64
+    64,
+    69,
+    73,
+    90,
+    93
    ],
-   "citations_total": 3,
+   "citations_total": 7,
    "citations_rejected": 0,
    "lines": 154,
    "templates": 19,
-   "raw_chars": 14306,
-   "digest_chars": 4070
+   "raw_chars": 14410,
+   "digest_chars": 4855,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "sim_failure_02.log",
@@ -499,14 +578,21 @@
    "cited_lines": [
     60,
     62,
-    65
+    61,
+    65,
+    112,
+    118,
+    120
    ],
-   "citations_total": 3,
+   "citations_total": 7,
    "citations_rejected": 0,
    "lines": 155,
    "templates": 17,
-   "raw_chars": 14143,
-   "digest_chars": 3784
+   "raw_chars": 14234,
+   "digest_chars": 4566,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "sim_failure_03.log",
@@ -519,14 +605,20 @@
    "cited_lines": [
     73,
     74,
-    77
+    77,
+    111,
+    112,
+    125
    ],
-   "citations_total": 3,
+   "citations_total": 6,
    "citations_rejected": 0,
    "lines": 125,
    "templates": 19,
-   "raw_chars": 11052,
-   "digest_chars": 4065
+   "raw_chars": 11091,
+   "digest_chars": 4846,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "no_fault_01.log",
@@ -539,7 +631,10 @@
    "lines": 147,
    "templates": 15,
    "raw_chars": 13054,
-   "digest_chars": 3503
+   "digest_chars": 4111,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "no_fault_02.log",
@@ -554,7 +649,10 @@
    "lines": 106,
    "templates": 16,
    "raw_chars": 9781,
-   "digest_chars": 3612
+   "digest_chars": 4301,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   },
   {
    "file": "no_fault_03.log",
@@ -567,7 +665,10 @@
    "lines": 137,
    "templates": 15,
    "raw_chars": 12086,
-   "digest_chars": 3501
+   "digest_chars": 4108,
+   "model": "",
+   "input_tokens": 0,
+   "output_tokens": 0
   }
  ]
 }

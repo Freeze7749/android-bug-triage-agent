@@ -94,7 +94,7 @@
 10-15 10:42:16.561  2658  2689 W NetworkMonitor: Cellular network not available: registration denied
 10-15 10:42:16.597  2658  2662 D DataNetworkController: Data network disconnected: reason=NOT_IN_SERVICE
 10-15 10:42:16.659  2658  2659 D DnsResolver: res_nquery: netid=109 rcode=0
-10-15 10:42:16.988  2658  2667 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:42:16.988  2658  2667 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:42:17.155  2658  2691 E chromium: [ERROR:cache_util.cc(143)] Unable to move cache folder
 10-15 10:42:17.348  2658  2691 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:42:17.471  2658  2660 W Bluetooth: Scan not started: adapter is off
@@ -106,7 +106,7 @@
 10-15 10:42:18.714  2658  2680 E chromium: [ERROR:cache_util.cc(186)] Unable to move cache folder
 10-15 10:42:18.950  2658  2678 E chromium: [ERROR:cache_util.cc(73)] Unable to move cache folder
 10-15 10:42:19.106  2658  2688 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-94, ssSinr=20} [PHONE0]
-10-15 10:42:19.120  2658  2674 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:42:19.120  2658  2674 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:42:19.490  2658  2697 I OpenGLRenderer: Davey! duration=984ms
 10-15 10:42:19.511  2658  2677 W Bluetooth: Scan not started: adapter is off
 10-15 10:42:19.748  2658  2659 I ActivityTaskManager: Displayed com.example.chat/.MainActivity: +750ms
@@ -134,7 +134,7 @@
 10-15 10:42:24.051  2658  2660 W Bluetooth: Scan not started: adapter is off
 10-15 10:42:24.360  2658  2669 I chatty  : uid=4667 identical 24 lines
 10-15 10:42:24.624  2658  2676 W Bluetooth: Scan not started: adapter is off
-10-15 10:42:24.635  2658  2677 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:42:24.635  2658  2677 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:42:24.849  2658  2685 D DnsResolver: res_nquery: netid=120 rcode=0
 10-15 10:42:24.935  2658  2658 D RILJ    : [8239]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:42:25.303  2658  2680 I ActivityTaskManager: Displayed com.example.maps/.MainActivity: +545ms

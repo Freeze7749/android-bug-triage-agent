@@ -96,10 +96,10 @@
 10-15 10:20:02.782  2249  2257 D RILJ    : [5687]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:20:02.983  2249  2269 I ActivityManager: Start proc 4368:com.example.music/u0a278 for activity
 10-15 10:20:03.139  2249  2283 D RILJ    : [7917]> GET_CURRENT_CALLS [PHONE0]
-10-15 10:20:03.144  2249  2251 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:20:03.144  2249  2251 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:20:03.238  2249  2279 I ActivityTaskManager: Displayed com.example.notes/.MainActivity: +740ms
 10-15 10:20:03.245  2249  2254 W Bluetooth: Scan not started: adapter is off
-10-15 10:20:03.555  2249  2258 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:20:03.555  2249  2258 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:20:03.827  2249  2262 I chatty  : uid=6786 identical 14 lines
 10-15 10:20:03.886  2249  2256 I ActivityTaskManager: Displayed com.example.music/.MainActivity: +533ms
 10-15 10:20:04.120  2249  2278 D RILJ    : [6277]> GET_CURRENT_CALLS [PHONE0]
@@ -110,7 +110,7 @@
 10-15 10:20:05.150  2249  2270 E chromium: [ERROR:cache_util.cc(186)] Unable to move cache folder
 10-15 10:20:05.543  2249  2276 D RILJ    : [7773]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:20:05.784  2249  2289 W libEGL  : EGLNativeWindowType has invalid format
-10-15 10:20:06.158  2249  2287 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:20:06.158  2249  2287 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:20:06.347  2249  2280 D AudioFlinger: mixer(0xe4a2) throttle end
 10-15 10:20:06.393  2249  2287 I BatteryService: Processing new values: level=75 temperature=371
 10-15 10:20:06.418  2249  2263 D RILJ    : [5680]> GET_CURRENT_CALLS [PHONE0]
@@ -127,7 +127,7 @@
 10-15 10:20:08.432  2249  2283 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:20:08.452  2249  2250 W Bluetooth: Scan not started: adapter is off
 10-15 10:20:08.486  2249  2265 W libEGL  : EGLNativeWindowType has invalid format
-10-15 10:20:08.859  2249  2275 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:20:08.859  2249  2275 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:20:09.017  2249  2274 E chromium: [ERROR:cache_util.cc(62)] Unable to move cache folder
 10-15 10:20:09.260  2249  2251 W Bluetooth: Scan not started: adapter is off
 10-15 10:20:09.480  2249  2276 W libEGL  : EGLNativeWindowType has invalid format

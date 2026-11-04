@@ -118,7 +118,7 @@
 10-15 10:21:12.106  1970  2007 I BatteryService: Processing new values: level=58 temperature=270
 10-15 10:21:12.367  1970  1972 E chromium: [ERROR:cache_util.cc(99)] Unable to move cache folder
 10-15 10:21:12.580  1970  1984 W Bluetooth: Scan not started: adapter is off
-10-15 10:21:12.647  1970  1981 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:21:12.647  1970  1981 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:21:12.768  1970  1972 D RILJ    : [8838]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:21:13.142  1970  1991 D DnsResolver: res_nquery: netid=116 rcode=0
 10-15 10:21:13.227  1970  1992 D RILJ    : [6845]> GET_CURRENT_CALLS [PHONE0]
@@ -132,16 +132,16 @@
 10-15 10:21:14.230  1970  1976 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-101, ssSinr=21} [PHONE0]
 10-15 10:21:14.375  1970  1976 I ActivityManager: Start proc 29303:com.example.music/u0a294 for activity
 10-15 10:21:14.664  1970  1990 E chromium: [ERROR:cache_util.cc(130)] Unable to move cache folder
-10-15 10:21:14.912  1970  1986 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:21:14.912  1970  1986 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:21:15.171  1970  2009 D WifiService: getWifiEnabledState uid=4997
-10-15 10:21:15.271  1970  2002 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:21:15.271  1970  2002 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:21:15.385  1970  2010 D WifiService: getWifiEnabledState uid=4220
 10-15 10:21:15.505  1970  1976 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-91, ssSinr=12} [PHONE0]
 10-15 10:21:15.529  1970  1998 I OpenGLRenderer: Davey! duration=1162ms
 10-15 10:21:15.551  1970  1976 I ActivityManager: Start proc 6884:com.example.chat/u0a209 for activity
 10-15 10:21:15.656  1970  1992 E chromium: [ERROR:cache_util.cc(164)] Unable to move cache folder
 10-15 10:21:15.815  1970  1993 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-91, ssSinr=25} [PHONE0]
-10-15 10:21:16.136  1970  1980 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:21:16.136  1970  1980 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:21:16.494  1970  1983 E chromium: [ERROR:cache_util.cc(144)] Unable to move cache folder
 10-15 10:21:16.650  1970  1980 D DnsResolver: res_nquery: netid=101 rcode=0
 10-15 10:21:16.942  1970  1986 W Bluetooth: Scan not started: adapter is off
@@ -164,12 +164,12 @@
 10-15 10:21:20.215  1970  1973 D DnsResolver: res_nquery: netid=104 rcode=0
 10-15 10:21:20.511  1970  2010 I ActivityTaskManager: Displayed com.example.notes/.MainActivity: +809ms
 10-15 10:21:20.753  1970  1982 D AudioFlinger: mixer(0xed25) throttle end
-10-15 10:21:21.070  1970  2003 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:21:21.070  1970  2003 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:21:21.246  1970  1999 D AudioFlinger: mixer(0x6070) throttle end
 10-15 10:21:21.329  1970  2010 I chatty  : uid=8800 identical 21 lines
-10-15 10:21:21.615  1970  1997 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:21:21.615  1970  1997 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:21:21.754  1970  1985 D WifiService: getWifiEnabledState uid=4359
 10-15 10:21:22.094  1970  2009 W Bluetooth: Scan not started: adapter is off
 10-15 10:21:22.392  1970  1982 I OpenGLRenderer: Davey! duration=907ms
-10-15 10:21:22.789  1970  1995 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:21:22.789  1970  1995 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:21:23.024  1970  1991 D RILJ    : [8947]> GET_CURRENT_CALLS [PHONE0]

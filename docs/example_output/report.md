@@ -25,6 +25,10 @@ The SIM is detected and ready.
 - [demo_sim_failure.log:63](samples/demo_sim_failure.log#L63): `10-15 10:27:04.740  1146  1157 D RILJ    : [1935]< GET_SIM_STATUS IccCardState {CARDSTATE_ABSENT,PINSTATE_UNKNOWN} [PHONE0]`
 
 ### 2. `network_registration_lost` (low confidence)
-1 line(s) match the rule for network_registration_lost.
+9 line(s) match the rule for network_registration_lost.
 
 - [demo_sim_failure.log:64](samples/demo_sim_failure.log#L64): `10-15 10:27:04.969  1146  1154 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN`
+- [demo_sim_failure.log:69](samples/demo_sim_failure.log#L69): `10-15 10:27:06.372  1146  1175 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN`
+- [demo_sim_failure.log:73](samples/demo_sim_failure.log#L73): `10-15 10:27:07.146  1146  1181 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN`
+- [demo_sim_failure.log:90](samples/demo_sim_failure.log#L90): `10-15 10:27:10.130  1146  1165 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN`
+- [demo_sim_failure.log:93](samples/demo_sim_failure.log#L93): `10-15 10:27:10.615  1146  1153 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN`

@@ -83,6 +83,7 @@ class TriageResult(BaseModel):
 
     source: str
     analyzer: str
+    model: str = ""
     predicted_category: Category
     summary: str
     causes: list[Cause]

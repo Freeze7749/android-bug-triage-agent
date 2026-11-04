@@ -1,5 +1,6 @@
 from triage_agent.parse import load_log, parse_line
 from triage_agent.redact import redact
+from triage_agent.models import Template
 from triage_agent.templates import build_digest, mine_templates
 
 
@@ -68,3 +69,19 @@ def test_digest_puts_severe_templates_first():
     ]
     digest = build_digest(lines, mine_templates(lines))
     assert digest.index("fatal thing") < digest.index("common message")
+
+
+def test_digest_shows_rare_wording_hidden_inside_a_merged_template():
+    messages = ["state=IN_SERVICE"] * 5 + ["state=OUT_OF_SERVICE"] + ["state=IN_SERVICE"] * 5
+    lines = _lines(*messages)
+    merged = Template(id=1, pattern="state=<*>", line_numbers=[l.number for l in lines], level="E", tag="Tag")
+    digest = build_digest(lines, [merged])
+    assert "L6:" in digest and "OUT_OF_SERVICE" in digest
+    assert "L11:" in digest  # the last line, which shows how things ended
+
+
+def test_lines_differing_only_by_digits_get_one_sample_plus_the_last():
+    lines = _lines("retry after 1 ms", "retry after 2 ms", "retry after 3 ms")
+    merged = Template(id=1, pattern="retry after <*> ms", line_numbers=[1, 2, 3], level="E", tag="Tag")
+    digest = build_digest(lines, [merged])
+    assert "L1:" in digest and "L2:" not in digest and "L3:" in digest

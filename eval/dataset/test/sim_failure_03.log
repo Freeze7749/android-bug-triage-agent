@@ -84,10 +84,10 @@
 10-15 10:32:50.213  1488  1507 D AudioFlinger: mixer(0x579e) throttle end
 10-15 10:32:50.610  1488  1524 I chatty  : uid=6904 identical 10 lines
 10-15 10:32:50.963  1488  1496 D DnsResolver: res_nquery: netid=107 rcode=0
-10-15 10:32:51.059  1488  1525 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:32:51.059  1488  1525 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:32:51.179  1488  1517 I OpenGLRenderer: Davey! duration=861ms
 10-15 10:32:51.456  1488  1514 D DnsResolver: res_nquery: netid=117 rcode=0
-10-15 10:32:51.742  1488  1519 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:32:51.742  1488  1519 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:32:51.899  1488  1493 I ActivityManager: Start proc 20408:com.example.music/u0a180 for activity
 10-15 10:32:52.245  1488  1513 W libEGL  : EGLNativeWindowType has invalid format
 10-15 10:32:52.559  1488  1506 W Bluetooth: Scan not started: adapter is off
@@ -108,6 +108,6 @@
 10-15 10:32:55.901  1488  1504 D RILJ    : [7489]> GET_CURRENT_CALLS [PHONE0]
 10-15 10:32:56.023  1488  1493 D RILJ    : [5987]< OPERATOR {Example Net, ExNet, 23001} [PHONE0]
 10-15 10:32:56.244  1488  1489 D RILJ    : [UNSL]< UNSOL_SIGNAL_STRENGTH {ssRsrp=-85, ssSinr=3} [PHONE0]
-10-15 10:32:56.366  1488  1520 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=0(IN_SERVICE) mDataRegState=0(IN_SERVICE) rat=NR
+10-15 10:32:56.366  1488  1520 D ServiceStateTracker: Poll ServiceState done: mVoiceRegState=1(OUT_OF_SERVICE) mDataRegState=1(OUT_OF_SERVICE) rat=UNKNOWN
 10-15 10:32:56.742  1488  1523 W Bluetooth: Scan not started: adapter is off
 10-15 10:32:56.823  1488  1528 W Bluetooth: Scan not started: adapter is off
